@@ -1,0 +1,65 @@
+*{padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    }
+
+body{background-color: aliceblue;}
+
+.header{background-color: #004240 ;
+display:flex;
+justify-content: space-between;
+align-items: center;
+height: 12vh;
+padding: 10px 5%;
+margin-top: 0;
+position: fixed;
+width: 90%;
+}
+
+.header .nav-links {list-style: none;margin-left: 3px;}
+
+.header .nav-links li {display: inline-block;}
+
+.header li:hover{
+    transform: scale(1.2);transition: all 0.6s
+    
+    
+}
+
+.header li a{text-decoration: none;
+Color:white;
+padding: 0 0.8vh;
+
+
+
+ 
+}
+
+.header li a:hover{color: #C7922A ;
+    
+}
+
+
+
+.header .logo img{height: 5vh;
+width:auto; 
+transition: all 0.7s;}
+
+.header .logo img:hover{transform: scale(1.2);}
+
+.legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
+
+.piepagina{
+    background-color: white;
+    display:flex;
+    height: 6vh;
+    padding: 10px 5%;
+    position:static;
+    width: 90%;
+    }
+    
+    .piepagina .redes{margin:auto;text-decoration: none;}
+    
+    .piepagina .redes a{color: black;transition-duration: 0.4s}
+    .piepagina .redes a:hover{color: black;color: #004240 ;}
