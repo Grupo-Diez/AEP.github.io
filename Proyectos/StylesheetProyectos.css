@@ -59,7 +59,7 @@ transition: all 0.7s;
 .legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
 
 .piepagina{
-    background-color: white;
+    background-color: #004240;
     display:flex;
     height: 6vh;
     padding: 10px 5%;
@@ -70,4 +70,4 @@ transition: all 0.7s;
     .piepagina .redes{margin:auto;text-decoration: none;}
     
     .piepagina .redes a{color: black;transition-duration: 0.4s}
-    .piepagina .redes a:hover{color: black;color: #004240 ;}
+    .piepagina .redes a:hover{color: black;color: #C7922A ;}
