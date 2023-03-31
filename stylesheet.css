@@ -49,7 +49,6 @@ transition: all 0.65s
 
 
 .header .logo img{height: 5.6vh;
-weight:auto; 
 transition: all 0.7s;}
 
 .header .logo img:hover{transform: scale(1.2);}
@@ -59,7 +58,6 @@ transition: all 0.7s;}
 .piepagina{
 background-color: white;
 display:flex;
-justify-content:;
 height: 6vh;
 padding: 10px 5%;
 position:static;
