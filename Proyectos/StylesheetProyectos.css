@@ -50,8 +50,7 @@ padding: 0 0.8vh;
 
 
 
-.header .logo img{height: 5vh;
-width:auto; 
+.header .logo img{height: 5.6vh;
 transition: all 0.7s;}
 
 .header .logo img:hover{transform: scale(1.2);}
