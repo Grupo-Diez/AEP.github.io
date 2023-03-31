@@ -65,7 +65,7 @@ width: 90%;
 
 .piepagina .redes{margin:auto;text-decoration: none;}
 
-.piepagina .redes a{color: black;transition-duration: 0.4s}
+.piepagina .redes a{color: black;transition-duration: 0.4s;padding: 1px;}
 .piepagina .redes a:hover{color: black;color: #0E8388;}
 
 
