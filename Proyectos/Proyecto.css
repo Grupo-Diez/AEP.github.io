@@ -4,7 +4,7 @@
 
 @font-face {
 font-family: "Selectric Orator";
-    src: local("Selectric Orator"), url(Selectric Orator.ttf);}
+    src: local("Selectric Orator"), url(Selectric Orator.ttf) format('truetype');}
 
 .header
 {background-color: #004240 ;
