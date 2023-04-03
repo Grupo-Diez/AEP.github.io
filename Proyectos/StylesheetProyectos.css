@@ -1,61 +1,61 @@
 *{padding: 0%;
     margin: 0%;
-    font-size: 2.5vh;
-    font-family:"Selectric Orator";}
-    @font-face {
-    font-family: "Selectric Orator";
-    src: local("Selectric Orator"), url(Selectric Orator.ttf);}
-    @font-face {
-        font-family: "D-DINCondensed";
-        src: local("D-DINCondensed"), url(D-DINCondensed.ttf)}
+    font-family:"Selectric Orator"}
 
+.header
+{background-color: #004240 ;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 9vh;
+    padding: 10px 5%;
+    margin-top: 0;
+    position: fixed;
+    width: 90%;}
 
-
-body{background-color: aliceblue;}
-
-.header{background-color: #004240 ;
-display:flex;
-justify-content: space-between;
+.Logoentero{display:flex;
 align-items: center;
-height: 9vh;
-padding: 10px 5%;
-margin-top: 0;
-position: fixed;
-width: 90%;
-}
+margin-top: 0;}
 
-.header .nav-links {list-style: none;margin-left: 3px;}
+#mediologo{height: 5.6vh;}
 
-.header .nav-links li {display: inline-block;}
+#arecopo{margin-left: 1.3vh; 
+         margin-top: 1.1vh; }
 
-.header li:hover{
-    transform: scale(1.2);transition: all 0.6s
-    
-    
-}
+#arecopo li{font-size:1.4vh; 
+            color: white;
+            letter-spacing:0.5vh;
+            overflow:hidden;
+            white-space: nowrap;
+            width: 0;}
+            
+                     
+.ARQ1{animation: typing 1.3s steps(20, end);animation-fill-mode: forwards}
+.ARQ2{animation: typing 1.3s steps(20, end);animation-delay: 1.3s;animation-fill-mode: forwards}
+.ARQ3{animation: typing 1.3s steps(20, end);animation-delay: 2.6s;animation-fill-mode: forwards}
 
-.header li a{text-decoration: none;
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } 
+.Logoentero:hover{transform: scale(1.2);transition: all 0.6s}
+
+
+
+legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
+
+
+
+nav{float: right;}
+.nav-links {list-style: none;font-size:2.1vh}
+.nav-links li {display: inline-block;}
+.nav-links li:hover{
+transform: scale(1.2);transition: all 0.4s}
+
+.nav-links a{text-decoration: none;
 Color:white;
-padding: 0 0.8vh;
-
-
-
- 
-}
-
-.header li a:hover{color: #C7922A ;
-    
-}
-
-
-
-.header .logo img{height: 5.6vh;
-transition: all 0.7s;
-}
-
-.header .logo img:hover{transform: scale(1.2);}
-
-.legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
+padding: 0 0.8vh;}
+.nav-links li a:hover{color: #C7922A ;}
 
 .piepagina{
     background-color: #004240;
