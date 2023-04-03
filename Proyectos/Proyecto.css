@@ -78,5 +78,15 @@ padding: 0 0.8vh;}
     .piepagina .redes a{color: white;transition-duration: 0.4s}
     .piepagina .redes a:hover{color: black;color: #C7922A ;}
 
+    @media (max-width: 952px){
+
+        .header{display:inline-table;}
+        nav a{ 
+            margin: 30% auto; 
+            display: inline-block;
+        }
+    
+    }
+
 
 
