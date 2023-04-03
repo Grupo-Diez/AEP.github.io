@@ -2,6 +2,10 @@
     margin: 0%;
     font-family:"Selectric Orator"}
 
+@font-face {
+font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric Orator.ttf);}
+
 .header
 {background-color: #004240 ;
     display:flex;
