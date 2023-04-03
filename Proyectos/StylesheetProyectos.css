@@ -4,7 +4,7 @@
     font-family:"Selectric Orator";}
     @font-face {
     font-family: "Selectric Orator";
-    src: local("Selectric Orator"), url(Home/Selectric Orator.ttf);}
+    src: local("Selectric Orator"), url(Selectric Orator.ttf);}
     @font-face {
         font-family: "D-DINCondensed";
         src: local("D-DINCondensed"), url(D-DINCondensed.ttf)}
