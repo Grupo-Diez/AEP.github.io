@@ -28,10 +28,9 @@ width: 90%;
 .header .nav-links li {display: inline-block;transition: all 0.6s}
 
 .header li:hover{
-    transform: scale(1.2);
+    transform: scale(1.2);}
     
-    
-}
+
 
 .header li a{text-decoration: none;
 Color:black;
