@@ -45,7 +45,7 @@ margin-top: 0;}
     from { width: 0 }
     to { width: 100% }
   } 
-.Logoentero:hover{transform: scale(1.2);transition: all 0.6s}
+.Logoentero:hover{transform: scale(1.2);transition: all 0.6s;}
 
 
 
@@ -61,7 +61,8 @@ transform: scale(1.2);transition: all 0.4s}
 
 .nav-links a{text-decoration: none;
 Color:white;
-padding: 0 0.8vh;}
+padding: 0%;
+margin: 1vh;}
 .nav-links li a:hover{color: #C7922A ;}
 
 .piepagina{
@@ -79,6 +80,9 @@ padding: 0 0.8vh;}
     .piepagina .redes a:hover{color: black;color: #C7922A ;}
 
     @media (max-width: 952px){
+
+        .Logoentero:hover{transform:none;}
+        .nav-links li:hover{transform: none}
 
         .header{display:inline-table;}
         nav a{ 
