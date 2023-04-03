@@ -33,8 +33,9 @@ width: 90%;
 
 .header li a{text-decoration: none;
 Color:black;
-padding: 0 0.8vh;
-transition: all 0.65s
+padding: 0;
+transition: all 0.65s;
+margin: 1vh;
 
  
 }
