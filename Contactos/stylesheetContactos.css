@@ -66,11 +66,17 @@ margin: 1vh;}
 .nav-links li a:hover{color: #C7922A ;}
 
 
-@media (max-width: 952px)
-{   .Logoentero:hover{transform:none;}
+@media (max-width: 952px){
+
+    .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none}
+
     .header{display:inline-table;}
-    nav a{ margin: 30% auto;display: inline-block;}
+    nav a{ 
+        margin: 30% auto; 
+        display: inline-block;
+    }
+
 }
 
 
