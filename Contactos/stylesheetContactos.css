@@ -54,7 +54,7 @@ legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
 
 
 nav{float: right;}
-.nav-links {list-style: none;font-size:2.1vh}
+.nav-links {list-style: none;font-size:2.5vh}
 .nav-links li {display: inline-block;}
 .nav-links li:hover{
 transform: scale(1.2);transition: all 0.4s}
@@ -70,29 +70,28 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:20px;display: flex;}
+    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;display: flex;}
     .header{flex-direction:column; height: auto;align-items:flex-start;}
 .nav-links li{margin:0%;}
 .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
     #arecopo{margin-left: 1.3vh; 
-             margin-top: 5px; font-weight: bold;}
+             margin-top: 8px;}
 
-    
+    #arecopo li{font-size: 10px;}
     
 }
 
 @media (max-width: 1024px){
 
-    .Logoentero:hover{transform:none;}
-    .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:20px;}
+    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;}
     .header{ height: auto; }
 .nav-links li{margin:0%;}
 .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
-    #arecopo{margin-left: 1.3vh; 
-             margin-top: 5px; font-weight: bold;}
+    #arecopo {margin-left: 1.3vh;
+             margin-top: 8px; font-weight: bold;}
+    #arecopo li{font-size: 10px;}
 
     
     
