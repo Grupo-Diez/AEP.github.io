@@ -72,15 +72,12 @@ margin: 1vh;}
     .nav-links li:hover{transform: none;}
     .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;display: flex;}
     .header{flex-direction:column; height: auto;align-items:flex-start;}
-.nav-links li{margin:0%;}
-.nav-links a{margin:3px}
+    .nav-links li{margin:0%;}
+    .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
     #arecopo{margin-left: 8px; 
              margin-top: 5px;}
-
-    #arecopo li{font-size: 9px;}
-    
-}
+    #arecopo li{font-size: 9px;}}
 
 .piepagina{
     background-color: #DACEB6;
