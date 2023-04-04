@@ -70,13 +70,15 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links li{margin-left: 0%}
-    .nav-links li a{padding-left: 0%;margin-left: 0%}
-    .nav-links {padding:0%;margin-left: 0%;margin-top: 10px;}
+    .nav-links {margin-top: 2%;;margin-inline-start:46px;font-size:15px;}
+    .header{flex-direction:column; height: auto;align-items:flex-start;}
 
-    .header{display:inline-table;}
-    nav a{display: inline-block;
-    }
+    #mediologo{height: 30px;width: auto;}
+    #arecopo{margin-left: 1.3vh; 
+             margin-top: 4.5px; font-weight: bold;}
+
+    #arecopo li{font-size:7.5px;}
+
 
 }
 
