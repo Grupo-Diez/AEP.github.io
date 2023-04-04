@@ -13,7 +13,7 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     display:flex;
     justify-content:space-between;
     align-items: center;
-    height: auto;
+    height: 75px;
     padding: 10px 5%;
     margin-top: 0;
     position: fixed;
