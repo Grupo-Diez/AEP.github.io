@@ -19,8 +19,8 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     position: fixed;
     width: 90%;}
 
-.Linklogo{text-decoration: none;display:flex;}
-.Logoentero{display:flex;
+.Linklogo{text-decoration: none;display: flex;}
+.Logoentero{
 align-items: center;
 margin-top: 0;}
 
