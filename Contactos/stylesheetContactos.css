@@ -69,12 +69,13 @@ margin: 1vh;}
 @media (max-width: 952px){
 
     .Logoentero:hover{transform:none;}
-    .nav-links li:hover{transform: none}
+    .nav-links li:hover{transform: none;}
+    .nav-links li{margin-left: 0%}
+    .nav-links li a{padding-left: 0%;margin-left: 0%}
+    .nav-links {padding:0%;margin-left: 0%;margin-top: 10px;}
 
     .header{display:inline-table;}
-    nav a{ 
-        margin: 30% auto; 
-        display: inline-block;
+    nav a{display: inline-block;
     }
 
 }
