@@ -70,16 +70,16 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 2%;;margin-inline-start:46px;font-size:20px;}
+    .nav-links {margin-top: 2%;margin-inline-start:62px;font-size:20px;display: flex;}
     .header{flex-direction:column; height: auto;align-items:flex-start;}
-
+.nav-links li{margin:0%;}
+.nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
     #arecopo{margin-left: 1.3vh; 
              margin-top: 5px; font-weight: bold;}
 
-    #arecopo li{font-size:10px;}
-
-
+    
+    
 }
 
 
