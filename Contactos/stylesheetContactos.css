@@ -24,14 +24,14 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
 align-items: center;
 margin-top: 0;}
 
-#mediologo{height: 50px;}
+#mediologo{height: 70px;}
 
 #arecopo{margin-left: 10px; 
-         margin-top: 4px;}
+         margin-top: 6px;}
 
-#arecopo li{font-size:12px; 
+#arecopo li{font-size:18px; 
             color: black;
-            letter-spacing:5px;
+            letter-spacing:3px;
             overflow:hidden;
             white-space: nowrap;
             width: 0;}
