@@ -86,8 +86,8 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;display: flex;}
-    .header{flex-direction:column; height: auto;align-items:flex-start;}
+    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;}
+    .header{; height: auto;}
 .nav-links li{margin:0%;}
 .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
