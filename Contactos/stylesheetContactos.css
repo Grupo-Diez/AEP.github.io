@@ -82,6 +82,22 @@ margin: 1vh;}
     
 }
 
+@media (max-width: 1024px){
+
+    .Logoentero:hover{transform:none;}
+    .nav-links li:hover{transform: none;}
+    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:20px;}
+    .header{ height: auto; }
+.nav-links li{margin:0%;}
+.nav-links a{margin:3px}
+    #mediologo{height: 38px;width: auto;}
+    #arecopo{margin-left: 1.3vh; 
+             margin-top: 5px; font-weight: bold;}
+
+    
+    
+}
+
 
 
 
