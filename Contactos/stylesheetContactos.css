@@ -87,7 +87,7 @@ margin: 1vh;}
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
     .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;}
-    .header{; height: auto;}
+    .header{height: auto;}
 .nav-links li{margin:0%;}
 .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
@@ -114,6 +114,4 @@ margin: 1vh;}
     
     .piepagina .redes a{color: black;transition-duration: 0.4s}
     .piepagina .redes a:hover{color: black;color: #C7922A ;}
-
-
-
+}
