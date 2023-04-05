@@ -20,14 +20,17 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     width: 90%;}
 
 .Linklogo{text-decoration: none;display: flex;}
-.Logoentero{
-align-items: center;
-margin-top: 0;}
+.Logoentero{ justify-content: space-between;
+align-items: center;}
 
 #mediologo{height: 60px;}
 
+<<<<<<< HEAD
 #arecopo{margin: 12px 0 auto 10px; 
          ;line-height: 15px;}
+=======
+#arecopo{margin-top: 4%; margin-left: 5.5%;}
+>>>>>>> c4bd5bc355a8423d40297134cfe5f4f0b8704cf8
 
 #arecopo li{font-size:23px;
             color: black;
@@ -75,9 +78,8 @@ margin: 1vh;}
     .nav-links li{margin:0%;}
     .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
-    #arecopo{margin-left: 8px; 
-             margin-top: 5px;}
-    #arecopo li{font-size: 9px;}}
+    #arecopo{margin-top: 5%;}
+    #arecopo li{font-size: 10px;}}
 
 .piepagina{
     background-color: #DACEB6;
