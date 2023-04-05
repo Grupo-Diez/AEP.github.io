@@ -76,8 +76,9 @@ margin: 1vh;}
     .nav-links li{margin:0%;}
     .nav-links a{margin:3px}
     #mediologo{height: 38px;width: auto;}
-    #arecopo{margin-top: 5%;}
-    #arecopo li{font-size: 10px;}}
+    #arecopo{margin-top: 5%;line-height: 9px}
+    #arecopo li{font-size: 12px;}
+}
 
 .piepagina{
     background-color: #DACEB6;
