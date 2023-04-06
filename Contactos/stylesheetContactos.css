@@ -9,7 +9,7 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     src: local("D-DINCondensed"), url(D-DINCondensed.ttf)}
 
 .header
-{background-color: #DACEB6 ;
+{background-color: white ;
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -64,7 +64,7 @@ transform: scale(1.2);transition: all 0.4s}
 Color:black;
 padding: 0%;
 margin: 1vh;}
-.nav-links li a:hover{color: #C7922A ;}
+.nav-links li a:hover{color: #0E8388 ;}
 
 
 @media (max-width: 952px){
@@ -81,7 +81,7 @@ margin: 1vh;}
 }
 
 .piepagina{
-    background-color: #DACEB6;
+    background-color: white;
     display:flex;
     height: 6vh;
     padding: 10px 5%;
@@ -92,4 +92,4 @@ margin: 1vh;}
     .piepagina .redes{margin:auto;text-decoration: none;}
     
     .piepagina .redes a{color: black;transition-duration: 0.4s}
-    .piepagina .redes a:hover{color: black;color: #C7922A;}
+    .piepagina .redes a:hover{color: black;color: #0E8388;}
