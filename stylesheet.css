@@ -71,13 +71,13 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:62px;font-size:18px;display: flex;}
+    .nav-links {margin-top: 5%;margin-inline-start:70px;font-size:18px;display: flex;}
     .header{flex-direction:column; height: auto;align-items:flex-start;}
     .nav-links li{margin:0%;}
-    .nav-links a{margin:10px}
-    #mediologo{height: 38px;width: auto;}
-    #arecopo{margin-top: 5%;line-height: 9px}
-    #arecopo li{font-size: 12px;}
+    .nav-links a{margin:13px}
+    #mediologo{height: 45px;width: auto;}
+    #arecopo{margin-top: 3%;line-height: 13px}
+    #arecopo li{font-size: 15px;}
 }
 
 .piepagina{
