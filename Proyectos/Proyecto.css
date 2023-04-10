@@ -53,7 +53,8 @@ header div ul {margin: 15px auto;
 legend{padding: 16vh 10vw 10vw; 
     text-align:left; 
     text-justify:auto;
-     font-size: 15px;}
+     font-size: 15px;font-family: nunito;}
+  @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat+Alternates:wght@100&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap')
 
 
 
