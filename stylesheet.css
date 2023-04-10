@@ -50,7 +50,10 @@ header div ul {margin: 15px auto;
 
 
 
-legend{padding: 16vh 10vw 10vw; text-align:left; text-justify:auto;}
+legend{padding: 16vh 10vw 10vw; 
+    text-align:left; 
+    text-justify:auto;
+     font-size: 15px;}
 
 
 
