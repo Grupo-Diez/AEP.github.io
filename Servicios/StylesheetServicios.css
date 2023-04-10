@@ -84,15 +84,15 @@ margin: 1vh;}
 }
 
 .piepagina{
-    background-color: white;
+    background-color: #004240;
     display:flex;
     height: 6vh;
     padding: 10px 5%;
     position:static;
     width: 90%;
     }
-    /**/
-    .piepagina .redes{margin:auto;text-decoration: none;}
     
-    .piepagina .redes a{color: black;transition-duration: 0.4s}
-    .piepagina .redes a:hover{color: black;color: #0E8388;}
+    .piepagina .redes{margin:auto;text-decoration: none;display: flex;}
+    
+    .piepagina .redes a{color: white;transition-duration: 0.4s;margin: 6px;}
+    .piepagina .redes a:hover{color: black;color: #C7922A ;}
