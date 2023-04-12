@@ -15,7 +15,7 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     align-items: center;
     height: 75px;
     padding: 10px 5%;
-    margin-top: 0;
+    margin-top: 0;z-index: 100;
     position: fixed;
     width: 90%;}
 
@@ -47,15 +47,6 @@ header div ul {margin: 15px auto;
     to { width: 100% }
   } 
 .Logoentero:hover{transform: scale(1.2);transition: all 0.6s}
-
-
-
-legend{padding: 16vh 10vw 10vw; 
-    text-align:left; 
-    text-justify:auto;
-     font-size: 18px;font-family:'Nunito', sans-serif;}
-
-
 
 nav{float: right;}
 .nav-links {list-style: none;font-size:18px}
@@ -95,3 +86,106 @@ margin: 1vh;}
         
         .piepagina .redes a{color: black;transition-duration: 0.2s;margin: 6px;}
         .piepagina .redes a:hover{color: #0E8388;transform: scale(1.2);transition: all 0.6s}
+
+
+
+        .galeri {padding: 16vh 10vw 10vw; 
+            text-align:left; 
+            text-justify:auto;
+             font-size: 18px;font-family:'Nunito', sans-serif;}
+
+
+
+        .lujan {
+            max-width: 100%;
+            display:grid;
+          }
+          
+        
+          /*** Default shared CSS ****/
+          figure.figurefx {
+            width: 600px;
+            margin: 30px auto;
+            padding: 0;
+            display: block;
+            position: relative;
+            overflow: hidden; /* hide overflowing elements by default */
+          }
+          
+          figure.figurefx figcaption {
+            position: absolute;
+            display: block;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            text-align: center;
+            background: white;
+            padding: 15px;
+            width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+            top: 50%;
+            left: 0;
+            -moz-transform: translate3d(
+              -100%,
+              -50%,
+              0
+            ); /* position caption outside layout horizontally and centered vertically */
+            -webkit-transform: translate3d(-100%, -50%, 0);
+            transform: translate3d(-100%, -50%, 0);
+            opacity: 0;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+          }
+          
+          .galeri a {
+            text-decoration: none;color:black
+          }
+          
+
+
+          /*** Push Up effect ****/
+          figure.pushup img {
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+          }
+          
+          figure.pushup figcaption {
+            top: 100%;
+            opacity: 1;
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+          }
+          
+          figure.pushup:hover img {
+            -moz-transform: translate3d(
+              0,
+              -20px,
+              0
+            ); /* move image up vertically a bit for parallax effect */
+            -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+            opacity: 0.5;
+          }
+          
+          figure.pushup:hover figcaption {
+            -moz-transform: translate3d(
+              0,
+              -100%,
+              0
+            ); /* move caption up vertically to fully reveal caption */
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+            box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+          }
+
+        
