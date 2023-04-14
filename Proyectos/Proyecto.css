@@ -2,7 +2,8 @@
 
 body{position: relative;
     display:flex;
-    margin: auto;
+    padding: 0%;
+    margin: 0%;
     font-family:"Selectric Orator";}
 
 
@@ -32,11 +33,12 @@ align-items: center;}
 #mediologo{height: 60px;}
 
 
-header div ul {margin: 15px auto; 
+header div ul {margin: 15px auto;
+         padding-left: 10px;
          line-height: 14px;}
 
 
-#arecopo li{font-size:19px;
+#arecopo li{font-size:19px;margin-left: 0%;
             color: black;
             letter-spacing:3px;
             overflow:hidden;
@@ -71,7 +73,7 @@ margin: 1vh;}
 
     .Logoentero:hover{transform:none;}
     .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:70px;font-size:18px;display: flex;}
+    .nav-links {margin-top: 5%;margin-inline-start:26px;font-size:18px;display: flex;}
     .header{flex-direction:column; height: auto;align-items:flex-start;}
     .nav-links li{margin:0%;}
     .nav-links a{margin:13px}
@@ -103,7 +105,7 @@ margin: 1vh;}
 
 
 .galeri{display:inline-flex; 
-        margin: 2%;
+        margin-left: 6%;margin-bottom: 6%;
         align-items: center; 
         justify-content: center;
         }
