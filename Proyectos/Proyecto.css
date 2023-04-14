@@ -38,7 +38,8 @@ header div ul {margin: 15px auto;
          line-height: 14px;}
 
 
-#arecopo li{font-size:19px;margin-left: 0%;
+#arecopo li{font-size:19px;
+            margin-left: 0%;
             color: black;
             letter-spacing:3px;
             overflow:hidden;
@@ -141,7 +142,7 @@ margin: 1vh;}
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 2s;}  
+    transition: 1.2s;}  
     
     a:hover .EfectoFoto{right: 0;}
     .galeri:hover img{filter:none;}
