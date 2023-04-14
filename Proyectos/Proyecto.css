@@ -24,7 +24,7 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     top: 0;
     z-index: 100;
     position: fixed;
-    width: 90%;}
+    width: 1000%;}
 
 .Linklogo{text-decoration: none;display: flex;}
 .Logoentero{ justify-content: space-between;
