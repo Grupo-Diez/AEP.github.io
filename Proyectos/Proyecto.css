@@ -81,20 +81,19 @@ margin: 1vh;}
     #mediologo{height: 45px;width: auto;}
     #arecopo{margin-top: 3%;line-height: 13px}
     #arecopo li{font-size: 15px;}
+    
     .GALERIA{
         margin:auto;  
         display: flex;
         flex-direction:column;
         margin-top: 150px; 
         align-items: center; 
-        justify-content: center;
+        justify-content: center;}
     }
 
- }
+
 
     
-
-
 .GALERIA{margin-top: 150px;
     margin-bottom: 150px;
     margin-left: auto;
@@ -106,7 +105,7 @@ margin: 1vh;}
 
 
 .galeri{display:inline-flex; 
-        margin-left: 6%;margin-bottom: 6%;
+        margin-left: 6%;margin-bottom: 9%;
         align-items: center; 
         justify-content: center;
         }
