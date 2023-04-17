@@ -134,33 +134,10 @@ margin: 1vh;}
     
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .TextoProyectos{font-size:16px;}
 .TextoProyectos p{font-family: 'nunito'; font-size: 15px; padding:1%; margin-bottom: 6%;}
 
 
-
-
-
-
-
-
-
-    
 
 .GALERIA{margin-top: 150px;
     margin-bottom: 150px;
@@ -192,7 +169,7 @@ margin: 1vh;}
     padding: 0;
     height: 100%;
     width:100%;
-    border-radius: 15px;
+    border-radius: 20px;
     filter:grayscale(70%);
     transition: 2.3s;}
 
