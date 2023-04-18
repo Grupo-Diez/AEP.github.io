@@ -75,18 +75,23 @@ margin: 1vh;}
     margin-left: auto;
     display:flexbox;
     margin-right: auto;
-    width: 80%; border:2px solid #DACEB6;
+    width: 80%; border:3px solid #DACEB6;
     }
 
-.TextoProyectos{font-size:16px;
-                }
-                .TextoProyectos h1{margin-left: 2%;
-                }
-.TextoProyectos .TextoIntro{font-family: 'nunito';
+.TextoProyectos{font-size:18px;}
+
+                .TextoProyectos h1{margin-left: 2%;}
+
+                .TextoProyectos .TextoIntro{
+                            font-family: 'nunito';
                             font-size: 15px; 
                             padding:1%; 
                             margin-bottom: 6%;
-                            text-align:justify;margin: 3%;}
+                            text-align:justify;
+                            margin-left: 3%;
+                            margin-right: 3%;
+                            line-height: 1.7;}
+          
 
 
 .galeri{display:inline-flex; 
