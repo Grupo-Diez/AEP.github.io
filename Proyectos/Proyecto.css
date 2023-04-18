@@ -88,7 +88,8 @@ margin: 1vh;}
         margin-top: 150px; 
         align-items: center; 
         justify-content: center;}
-    }
+     }
+
 @media (max-width: 479px){
 
         .Logoentero:hover{transform:none;}
@@ -126,19 +127,14 @@ margin: 1vh;}
             align-items: center; 
             justify-content: center;}
     
-    .galeri figure{
-        width: 200px;
-        height: 150px;}
+    
 
         }
     
 
 
-.TextoProyectos{font-size:16px;padding-left: 3%;}
-.TextoProyectos .TextoIntro{font-family: 'nunito';
-                  font-size: 15px; 
-                  padding:1%; 
-                  margin-bottom: 6%;}
+
+
 
 
 
@@ -150,6 +146,14 @@ margin: 1vh;}
     align-items: center; 
     justify-content: center;
     }
+
+.TextoProyectos{font-size:16px;
+                padding-left: 3%;}
+
+.TextoProyectos .TextoIntro{font-family: 'nunito';
+                            font-size: 15px; 
+                            padding:1%; 
+                            margin-bottom: 6%;}
 
 
 .galeri{display:inline-flex; 
