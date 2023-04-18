@@ -75,21 +75,24 @@ margin: 1vh;}
     margin-left: auto;
     display:flexbox;
     margin-right: auto;
-    width: 80%;
+    width: 80%; border:2px solid #DACEB6;
     }
 
 .TextoProyectos{font-size:16px;
-                padding-left: 3%;}
-
+                }
+                .TextoProyectos h1{margin-left: 2%;
+                }
 .TextoProyectos .TextoIntro{font-family: 'nunito';
                             font-size: 15px; 
                             padding:1%; 
-                            margin-bottom: 6%;}
+                            margin-bottom: 6%;
+                            text-align:justify;margin: 3%;}
 
 
 .galeri{display:inline-flex; 
-    margin-left: 6%;
-    margin-bottom: 9%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 6%;
         align-items: center; 
         justify-content: center;
         }
@@ -139,7 +142,7 @@ margin: 1vh;}
         padding: 10px 5%;
         position:absolute;
         bottom: 0;
-        width: 90%;
+        width: 100%;
         }
         
 .piepagina .redes{margin:auto;
@@ -177,6 +180,13 @@ margin: 1vh;}
             top: 0;
             right: 0%;
             font-size: 12px;} 
+
+.GALERIAFOTOS{align-items: center;
+    margin:3%; }
+
+        .galeri{display:inline-flex; 
+            margin-left: 0%;
+            margin-bottom: 0%;
 
 
 
