@@ -1,111 +1,178 @@
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
-body{position: relative;
-    display:flex;
+body {
+    position: relative;
+    display: flex;
     padding: 0%;
     margin: 0%;
-    font-family:"Selectric Orator";}
+    font-family: "Selectric Orator";
+}
 
 
 @font-face {
-font-family: "Selectric Orator";
-src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
+    font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    ;
+}
+
 @font-face {
     font-family: "D-DINCondensed";
-    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)}
+    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)
+}
 
-.header
-{background-color: white ;
-    display:flex;
-    justify-content:space-between;
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 95px;
+    height: 75px;
     padding: 10px 5%;
-    top: 0;
-    z-index: 100;
+    margin-top: 1%;
     position: fixed;
-    width: 100%;}
+    width: 100%;
+}
 
-.Linklogo{text-decoration: none;
-          display: flex; 
-          justify-content: space-between;}
-.Logoentero{ 
-align-items: center;}
+.Linklogo {
+    text-decoration: none;
+    display: flex;
+}
 
-#mediologo{height: 60px;}
+.Logoentero {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mediologo {
+    height: 60px;
+    margin-right: 10px;
+}
 
 
-header div ul {margin:10px auto;
-         padding-left: 10px;
-         line-height: 12px;}
+header div ul {
+    padding: 0%;
+    margin: 15px auto;
+    line-height: 14px;
+}
 
 
-header div ul li{font-size:19px;
-            margin-left: 0%;
-            color: black;
-            letter-spacing:3px;
-            overflow:hidden;
-            white-space: nowrap;
-            width: 0;}
- .ARQ2 , .ARQ3 {margin-top: 4%;}          
-            
-                     
-.ARQ1{animation: typing 1.3s steps(20, end);animation-fill-mode: forwards}
-.ARQ2{animation: typing 1.3s steps(20, end);animation-delay: 1.3s;animation-fill-mode: forwards}
-.ARQ3{animation: typing 1.3s steps(20, end);animation-delay: 2.6s;animation-fill-mode: forwards}
+#arecopo li {
+    font-size: 19px;
+    color: black;
+    letter-spacing: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+
+
+.ARQ1 {
+    animation: typing 1.3s steps(20, end);
+    animation-fill-mode: forwards
+}
+
+.ARQ2 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards
+}
+
+.ARQ3 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards
+}
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  } 
-.Logoentero:hover{transform: scale(1.2);transition: all 0.4s}
+    from {
+        width: 0
+    }
 
-nav{float: right;margin-right: 2%;}
-.nav-links {list-style: none;font-size:18px}
-.nav-links li {display: inline-block;}
-.nav-links li:hover{
-transform: scale(1.2);transition: all 0.4s}
+    to {
+        width: 100%
+    }
+}
 
-.nav-links a{text-decoration: none;
-Color:black;
-padding: 0%;
-margin: 1vh;}
-.nav-links li a:hover{color: #0E8388 ;}
+.Logoentero:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 18px
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+.nav-links a {
+    text-decoration: none;
+    Color: black;
+    padding: 0%;
+    margin: 1vh;
+}
+
+.nav-links li a:hover {
+    color: #0E8388;
+}
 
 
-.GALERIA{margin-top: 150px;
+.GALERIA {
+    margin-top: 150px;
     margin-bottom: 150px;
     margin-left: auto;
-    display:flexbox;
-    
+    display: flexbox;
+
     margin-right: auto;
-    width: 95%; border:3px solid #DACEB6;
-    }
-    
-.TextoProyectos{font-size:18px;}
+    width: 95%;
+    border: 3px solid #DACEB6;
+}
 
-                .TextoProyectos h1{margin-left: 2%;}
+.TextoProyectos {
+    font-size: 18px;
+}
 
-                .TextoProyectos .TextoIntro{
-                            font-family: 'nunito';
-                            font-size: 15px; 
-                            padding:1%; 
-                            margin-bottom: 6%;
-                            text-align:justify;
-                            margin-left: 3%;
-                            margin-right: 3%;
-                            line-height: 1.7;}
+.TextoProyectos h1 {
+    margin-left: 2%;
+}
 
-.GALERIAFOTOS{
-    display: flex; 
-    justify-content:space-evenly;
-    flex-wrap: wrap;}          
+.TextoProyectos .TextoIntro {
+    font-family: 'nunito';
+    font-size: 15px;
+    padding: 1%;
+    margin-bottom: 6%;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 1.7;
+}
 
-.galeri{margin: 2%;}
+.GALERIAFOTOS {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
-.galeri figure{
-    margin:0;
-    padding:0;
+.galeri {
+    margin: 2%;
+}
+
+.galeri figure {
+    margin: 0;
+    padding: 0;
     width: 400px;
     height: 300px;
     border-radius: 20px;
@@ -113,126 +180,199 @@ margin: 1vh;}
     position: relative;
 }
 
-.galeri img{
+.galeri img {
     padding: 0;
     height: 100%;
-    width:100%;
+    width: 100%;
     border-radius: 20px;
-    filter:grayscale(75%);
-    transition: 2.3s;}
+    filter: grayscale(75%);
+    transition: 2.3s;
+}
 
-.galeri .EfectoFoto{
+.galeri .EfectoFoto {
     width: 100%;
     height: 100%;
     top: 0;
     right: -68%;
     position: absolute;
-    font-family:'Nunito';
+    font-family: 'Nunito';
     border-radius: 15px;
     color: #fff;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 1.2s;}  
+    transition: 1.2s;
+}
+
+a:hover .EfectoFoto {
+    right: 0;
+}
+
+.galeri:hover img {
+    filter: none;
+}
+
+
+
+.piepagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 10px 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.piepagina .redes {
+    margin: auto;
+    border-top: 1px solid black;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piepagina .redes .icons {
+                          display: flex;
+}
+
+.piepagina .redes a {
+    color: black;
+    transition-duration: 0.2s;
+    margin: 6px;
+}
+
+.piepagina .redes a {
+    color: black;
+    margin: 6px;
     
-    a:hover .EfectoFoto{right: 0;}
-    .galeri:hover img{filter:none;}
-          
-        
+}
 
-.piepagina{
-        background-color: white;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 6vh;
-        padding: 10px 5%;
-        position:absolute;
-        bottom: 0;
-        width: 100%;
-        }
-
-.piepagina .redes{margin:auto;
-                  border-top: 1px solid black;        
-                  text-decoration: none;
-                  width: 100%;
-                 display: flex;
-                justify-content:flex-end;
-                padding: 1.5%;}
-        
-.piepagina .redes a{color: black;transition-duration: 0.2s;margin: 6px;}
-.svg-icon {
-    width: 25px;
-    height: 25px;}
-  
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-    fill: black;}
-  
-  
+.piepagina .redes a:hover {
+    color: #0E8388;
+    transform: scale(1.2);
+    transition: all 0.6s
+}
 
 
 
 
-@media (max-width: 952px){
 
-    .Logoentero:hover{transform:none;}
-    .nav-links li:hover{transform: none;}
-    .nav-links {margin-top: 5%;margin-inline-start:26px;font-size:18px;display: flex;}
-    .header{flex-direction:column; height: auto;align-items:flex-start;}
-    .nav-links li{margin:0%;}
-    .nav-links a{margin:13px}
-    #mediologo{height: 45px;width: auto;}
-    #arecopo{margin-top: 3%;line-height: 13px}
-    #arecopo li{font-size: 15px;}
-    .ARQ2 , .ARQ3 {margin-top: 0%;}  
- 
-.galeri figure{
-            margin:0;
-            padding:0;
-            width: 200px;
-            height: 150px;
-            border-radius: 20px;
-        }
+@media (max-width: 952px) {
 
-        .galeri .EfectoFoto{
-            top: 0;
-            right: 0%;
-            font-size: 12px;} }
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav-links {
+        margin-top: 5%;
+        margin-inline-start: 26px;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+
+    .galeri figure {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .galeri .EfectoFoto {
+        top: 0;
+        right: 0%;
+        font-size: 12px;
+    }
+}
 
 
-@media (max-width: 479px){
+@media (max-width: 479px) {
 
-        .Logoentero:hover{transform:none;}
-    
-        .nav-links li:hover{transform: none;}
-        .nav{margin: 0%;}
+    .Logoentero:hover {
+        transform: none;
+    }
 
-        .nav-links {margin-top: 5%;
-                   padding: 0%;
-                   margin-inline-start:0;
-                   margin-left: 0%;
-                   font-size:18px;
-                   display: flex;}
-    
-        .header{flex-direction:column; 
-                height: auto; 
-                align-items:flex-start;}
-    
-    
-        .nav-links a{margin-left: 0%;}
-    
-        #mediologo{height: 45px;
-                   width: auto;}
-    
-        #arecopo{margin-top: 3%;
-                 line-height: 13px}
-    
-        #arecopo li{font-size: 15px;}
+    .nav-links li:hover {
+        transform: none;
+    }
 
-        }
-        
-                
-     
+    .nav {
+        margin: 0%;
+    }
+
+    .nav-links {
+        margin-top: 5%;
+        padding: 0%;
+        margin-inline-start: 0;
+        margin-left: 0%;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+
+
+    .nav-links a {
+        margin-left: 0%;
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+}
