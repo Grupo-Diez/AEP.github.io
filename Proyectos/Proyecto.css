@@ -27,10 +27,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
+    height: 90px;
     padding: 10px 5%;
-    margin-top: 1%;
-    position: fixed;
+    margin-top: 0;
+    position: fixed;z-index: 100;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@ body {
     display: flex;
 }
 
-.Logoentero {
+.Logoentero {margin-top: 1%;
     justify-content: space-between;
     align-items: center;
 }
@@ -95,7 +95,7 @@ header div ul {
 }
 
 .Logoentero:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.4s
 }
 
@@ -106,7 +106,7 @@ nav {
 
 .nav-links {
     list-style: none;
-    font-size: 18px
+    font-size: 19px
 }
 
 .nav-links li {
