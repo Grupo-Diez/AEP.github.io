@@ -202,7 +202,7 @@ nav {
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    filter: grayscale(75%);
+    filter: grayscale(90%);
     transition: 2.3s;
 }
 
@@ -213,7 +213,6 @@ nav {
     right: -68%;
     position: absolute;
     font-family: 'Nunito';
-    border-radius: 15px;
     color: #fff;
     text-align: center;
     display: flex;
