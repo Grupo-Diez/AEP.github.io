@@ -26,25 +26,28 @@ src: local("Selectric Orator"), url(Selectric\ Orator.ttf);;}
     position: fixed;
     width: 100%;}
 
-.Linklogo{text-decoration: none;display: flex; justify-content: space-between;}
+.Linklogo{text-decoration: none;
+          display: flex; 
+          justify-content: space-between;}
 .Logoentero{ 
 align-items: center;}
 
 #mediologo{height: 60px;}
 
 
-header div ul {margin: 15px auto;
+header div ul {margin:10px auto;
          padding-left: 10px;
          line-height: 12px;}
 
 
-#arecopo li{font-size:19px;
+header div ul li{font-size:19px;
             margin-left: 0%;
             color: black;
             letter-spacing:3px;
             overflow:hidden;
             white-space: nowrap;
             width: 0;}
+ .ARQ2 , .ARQ3 {margin-top: 4%;}          
             
                      
 .ARQ1{animation: typing 1.3s steps(20, end);animation-fill-mode: forwards}
@@ -184,7 +187,7 @@ margin: 1vh;}
     #mediologo{height: 45px;width: auto;}
     #arecopo{margin-top: 3%;line-height: 13px}
     #arecopo li{font-size: 15px;}
-
+    .ARQ2 , .ARQ3 {margin-top: 0%;}  
  
 .galeri figure{
             margin:0;
