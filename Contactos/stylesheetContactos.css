@@ -140,7 +140,7 @@ nav {
     margin-left: auto;
     display: flexbox;
     margin-right: auto;
-    width: 80%;
+    width: 95%;
     }
 
   
@@ -284,7 +284,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 5%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
