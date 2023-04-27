@@ -239,6 +239,7 @@ body{
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
+    font-family: 'Nunito', sans-serif;
   }
   
   
@@ -320,7 +321,7 @@ body{
   
   p{
     font-size: 14px; 
-    color: #0e0e0e; 
+    color: #0e0e0e;
   }
   
   
@@ -332,7 +333,7 @@ body{
   
   ::-webkit-textarea-placeholder {
    color: #dfd9d9;
-  }
+ }
   
   
   .formulario input:focus{
