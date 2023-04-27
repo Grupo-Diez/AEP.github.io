@@ -224,6 +224,7 @@ body{
     padding-bottom: 20px;  
     background-color:#daceb6; 
     padding-left: 30px; 
+    
   }
   
   
@@ -252,13 +253,15 @@ body{
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
-    padding-top: 15px; 
+    padding-top: 15px;
+    font-family: 'Nunito', sans-serif;
   }
   
   
   label{
     display: block; 
     float: center;  
+    font-family: 'Nunito', sans-serif;
   }
   
   
@@ -279,7 +282,8 @@ body{
   
   
   button p{
-    color: #daceb6; 
+    color: #daceb6;
+    font-family: 'Nunito', sans-serif;
   }
   
   
@@ -309,8 +313,7 @@ body{
     font-size: 16px; 
     padding-bottom: 30px;
     color: #0e0e0e;
-    font-family: "Selectric Orator";
-      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    font-family: 'Nunito', sans-serif;
       ;   
   }
   
@@ -323,6 +326,7 @@ body{
   
   ::-webkit-input-placeholder {
    color: #daceb6;
+   font-family: 'Nunito', sans-serif;
   }
   
   
@@ -339,6 +343,6 @@ body{
   
   .formulario textarea:focus{
     outline:0;
-    border: 1px solid #b11515;
+    border: 1px solid #f3efef;
   }
   
