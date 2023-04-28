@@ -156,8 +156,25 @@ nav {
     width: 95%;
     border: 3px solid #004240;
     border-radius: 20px;
-    padding: 5%;
+    padding: 1%;
 }
+
+
+
+/*GridCuerpo*/
+.GridCuerpo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border:solid #004240;
+}
+
+.Item2{grid-column-start: 2;grid-column-end: 4;}
+
+
+
+
+
+
 
 
 
