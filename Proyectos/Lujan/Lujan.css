@@ -154,7 +154,6 @@ nav {
     display:flex;
     margin-right: auto;
     width: 95%;
-    border: 3px solid #004240;
     border-radius: 20px;
     padding: 5%;
 }
@@ -168,7 +167,7 @@ nav {
     gap:15px; 
     width:90%;
 }
-.Item1{text-align: center;}
+.Item1{text-align: center;width: 100%;}
 
 .Item2{
     grid-column-start: 2;
@@ -179,7 +178,7 @@ nav {
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end:4 ;
-width: 100%;;}
+width: 100%;}
 
 .Item4{
     grid-column-start: 2;
@@ -193,6 +192,9 @@ width: 100%;;}
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start:3 ;
+    width:100%;}
+.Item6{grid-column-start: 1;
+    grid-row-start: 4;
     width:100%;}
 
 
