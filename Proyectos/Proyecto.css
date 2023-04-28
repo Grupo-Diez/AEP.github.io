@@ -154,15 +154,14 @@ nav {
     display: flexbox;
     margin-right: auto;
     width: 95%;
-    border: 3px solid #DACEB6;
+    border: 3px solid #DACEB6;border-radius: 20px;
 }
 
 .TextoProyectos {
     font-size: 18px;
 }
 
-.TextoProyectos h1 {
-    margin-left: 2%;
+.TextoProyectos h1 {width: 100%;padding-left: 2%;padding-top: 1%;
 }
 
 .TextoProyectos .TextoIntro {
@@ -176,7 +175,7 @@ nav {
     line-height: 1.7;
 }
 
-.GALERIAFOTOS {
+.GALERIAFOTOS {margin-bottom: 5%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
