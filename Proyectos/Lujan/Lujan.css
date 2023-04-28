@@ -164,8 +164,8 @@ nav {
 .GridCuerpo{
     display: grid;
     grid-template-columns:auto auto auto;
-    gap:15px; 
     width:90%;
+    gap:3px
 }
 .Item1{text-align: center;width: 100%;}
 
