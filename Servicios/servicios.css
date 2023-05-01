@@ -1,0 +1,546 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Selectric Orator";
+}
+
+
+@font-face {
+    font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "D-DINCondensed";
+    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)
+}
+
+
+
+/* Header y navbar */
+
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 2% 5%;
+    margin-top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+}
+
+/* Header Logo */
+
+
+.Logoentero {
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Linklogo {
+    text-decoration: none;
+    display: flex;
+}
+
+#mediologo {
+    height: 12vh;
+    margin-right: 1rem;
+}
+
+header div ul {
+    padding: 0%;
+    margin: 1rem auto;
+    line-height: 3vh;
+}
+
+#arecopo li {
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: .1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+
+/* Header logo typing efect */
+
+
+.ARQ1 {
+    animation: typing 1.3s steps(20, end);
+    animation-fill-mode: forwards
+}
+
+.ARQ2 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards
+}
+
+.ARQ3 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.Logoentero:hover {
+    transform: scale(1.1);
+    transition: all 0.4s
+}
+
+
+/* Header menu navbar */
+
+
+nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 1.2rem
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+.nav-links a {
+    text-decoration: none;
+    Color: black;
+    padding: 0%;
+    margin: 1vh;
+}
+
+.nav-links li a:hover {
+    color: #0E8388;
+}
+
+.particulares{
+    display:grid;
+    margin: 27vh 10vw 5vh 10vw;
+    padding-bottom: 1.5em;
+    justify-items: center;
+    width: 80vw;
+    height: auto;
+    border: 3px solid #ae5626;border-radius: 20px;
+}
+
+.particulares h2{
+    font-family: "Selectric Orator";
+      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.diseno1{
+    width: 50%;
+    height: 95%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 8px 10px 12px black;
+}
+
+.diseno1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.diseno1 p{
+   font-size: 2.6rem;
+   font-weight: 900;
+   color:rgb(250, 245, 245);
+   position:absolute;
+   top: 30%;
+   left: 15%;
+   transform: translate(-50% -50%);
+   text-shadow: 0 0 8px rgb(14, 3, 3);
+}
+
+.sociales{
+    display: grid;
+    margin: 5vh 10vw 15vh 10vw;
+    justify-items: center;
+    padding-bottom: 3em;
+    width: 80vw;
+    height: auto;
+    border: 3px solid #ae5626;border-radius: 20px;
+}
+
+.sociales h2{
+    font-family: "Selectric Orator";
+      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.diseno2 {
+    width: 50%;
+    height: 95%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 8px 10px 12px black;
+}
+
+.diseno2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.diseno2 p{
+   font-size: 2.6rem;
+   font-weight: 900;
+   color:rgb(250, 245, 245);
+   position:absolute;
+   top: 30%;
+   left: 15%;
+   transform: translate(-50% -50%);
+   text-shadow: 0 0 8px rgb(14, 3, 3);
+}
+
+.grande{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.grande img{
+    width: 45vw;
+    max-height: 90vh;
+}
+
+.grande:target{
+    transform: scale(1);
+}
+
+.cerrar{
+    display: block;
+    position: absolute;
+    top: 4vw;
+    right: 20vw;
+    background: rgb(245, 68, 68);
+    color: rgb(211, 233, 253);
+    text-decoration: none;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    line-height: 3vw;
+    border-radius: 50%;
+}
+
+
+/* Pie de pagina redes */
+
+.piepagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 2% 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.piepagina .redes {
+    margin: auto;
+    border-top: 1px solid black;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piepagina .redes .icons {
+    display: flex;
+}
+
+.piepagina .redes a {
+    color: black;
+    transition-duration: 0.2s;
+    margin: 6px;
+}
+
+.piepagina .redes a {
+    color: black;
+    margin: 6px;
+
+}
+
+.piepagina .redes a:hover {
+    color: #0E8388;
+    transform: scale(1.2);
+    transition: all 0.6s
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    #mediologo {
+        height: 7vh;
+        width: auto;
+    }
+
+    .nav {
+        margin: 0%;
+    }
+
+    .nav-links {
+        margin-top: 2%;
+        padding: 0%;
+        margin-inline-start: 0;
+        margin-left: 0%;
+        font-size: .8em;
+        display: flex;
+    }
+
+    .nav-links a {
+        margin-left: 0%;
+    }
+
+    #arecopo {
+        margin-top: 4%;
+        line-height: 2vh
+    }
+
+    #arecopo li {
+        font-size: .8rem;
+    }
+
+    .particulares{
+        margin-top: 18vh;
+    }
+    .particulares h2{
+        font-size: 100%;
+    }
+    
+    .diseno1{
+        width: 80%;
+        height: 95%;
+    }
+
+    .diseno1 p{
+        font-size: 130%;
+        font-weight: 900;
+        top: 10%;
+        left: 10%;
+     }
+
+    .sociales h2{
+        font-size: 100%;
+    }
+    
+    .diseno2{
+        width: 80%;
+        height: 95%;
+    }
+
+    .diseno2 p{
+        font-size: 130%;
+        font-weight: 900;
+        top: 10%;
+        left: 10%;
+     }
+
+     .grande img{
+        width: 90vw;
+        max-height: 100vh;
+    }
+
+    .cerrar{
+        top: 25%;
+        right: 5%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px){
+    .header {
+        height:25vh;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-top: 2%;
+        align-items: center;
+    }
+
+    .nav-links {
+        font-size: 1rem;
+        display: flex;
+    }
+
+    #mediologo {
+        height: 15vh;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 4vh
+    }
+
+    #arecopo li {
+        font-size: .8rem;
+    }
+
+    .particulares{
+        margin-top: 28vh;
+    }
+    .particulares h2{
+        font-size: 200%;
+    }
+    
+    .diseno1{
+        width: 70%;
+    }
+
+    .diseno1 p{
+        font-size: 200%;
+        top: 10%;
+        left: 10%;
+     }
+
+    .sociales h2{
+        font-size: 200%;
+    }
+    
+    .diseno2{
+        width: 70%;
+    }
+
+    .diseno2 p{
+        font-size: 200%;
+        top: 10%;
+        left: 10%;
+     }
+
+     .grande img{
+        width: 80vw;
+        max-height: 90vh;
+    }
+
+    .cerrar{
+        top: 5vw;
+        right: 5vw;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1000px){
+    .header {
+        height:25vh;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-top: 2%;
+        align-items: center;
+    }
+
+    .nav-links {
+        font-size: 1rem;
+        display: flex;
+    }
+
+    #mediologo {
+        height: 15vh;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 4vh
+    }
+
+    #arecopo li {
+        font-size: 1rem;
+    }
+
+    .particulares{
+        margin-top: 30vh;
+    }
+    .particulares h2{
+        font-size: 200%;
+    }
+    
+    .diseno1{
+        width: 70%;
+    }
+
+    .diseno1 p{
+        font-size: 300%;
+        top: 10%;
+        left: 10%;
+     }
+
+    .sociales h2{
+        font-size: 200%;
+    }
+    
+    .diseno2{
+        width: 70%;
+    }
+
+    .diseno2 p{
+        font-size: 300%;
+        top: 10%;
+        left: 10%;
+     }
+
+     .grande img{
+        width: 80vw;
+        max-height: 90vh;
+    }
+
+    .cerrar{
+        top: 5vw;
+        right: 5vw;
+    }
+    
+}
+
