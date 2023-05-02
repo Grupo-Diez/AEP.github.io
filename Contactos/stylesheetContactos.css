@@ -373,6 +373,17 @@ nav {
         margin-top: 0%;
     }
     .contact_form{margin-top: 35px;}
+
+    
+    .formulario{width: 100%; }
+    input{width: 90%;}
+
+ textarea{width: 90%;}
+
+  button{width: 90%;
+    height: 80%; }
+
+
 }
 
 
@@ -424,4 +435,5 @@ nav {
         font-size: 15px;
     }
     .contact_form{margin-top: 38px;}
+
 }
