@@ -286,8 +286,11 @@ a:hover .EfectoFoto {
         transform: none;
     }
 
+    .Logoentero {
+        margin-top: 2px;}
+
     .nav-links {
-        margin-top: 5%;
+        margin-top: 1.5%;
         margin-inline-start: 26px;
         font-size: 18px;
         display: flex;
@@ -295,7 +298,7 @@ a:hover .EfectoFoto {
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 115px;
         align-items: flex-start;
     }
 
