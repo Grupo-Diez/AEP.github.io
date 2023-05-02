@@ -331,19 +331,20 @@ nav {
     .nav-links li:hover {
         transform: none;
     }
+    .Logoentero {
+        margin-top: 2px;}
+        .nav-links {
+            margin-top: 2px;
+            margin-inline-start: 26px;
+            font-size: 18px;
+            display: flex;
+        }
 
-    .nav-links {
-        margin-top: 5%;
-        margin-inline-start: 26px;
-        font-size: 18px;
-        display: flex;
-    }
-
-    .header {
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
-    }
+        .header {
+            flex-direction: column;
+            height: 105px;
+            align-items: flex-start;
+        }
 
     .nav-links li {
         margin: 0%;
@@ -371,7 +372,10 @@ nav {
     .ARQ3 {
         margin-top: 0%;
     }
+    .contact_form{margin-top: 35px;}
 }
+
+
 @media (max-width: 479px) {
 
     .Logoentero:hover {
@@ -387,7 +391,7 @@ nav {
     }
 
     .nav-links {
-        margin-top: 5%;
+        margin-top: 2%;
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
@@ -397,7 +401,7 @@ nav {
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 110px;
         align-items: flex-start;
     }
 
@@ -419,4 +423,5 @@ nav {
     #arecopo li {
         font-size: 15px;
     }
+    .contact_form{margin-top: 38px;}
 }

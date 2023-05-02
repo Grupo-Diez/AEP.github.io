@@ -290,7 +290,7 @@ a:hover .EfectoFoto {
         margin-top: 2px;}
 
     .nav-links {
-        margin-top: 1.5%;
+        margin-top: 2px;
         margin-inline-start: 26px;
         font-size: 18px;
         display: flex;
@@ -298,7 +298,7 @@ a:hover .EfectoFoto {
 
     .header {
         flex-direction: column;
-        height: 115px;
+        height: 105px;
         align-items: flex-start;
     }
 
@@ -328,8 +328,10 @@ a:hover .EfectoFoto {
     .ARQ3 {
         margin-top: 0%;
     }
+
     .GALERIA {
-        margin-top: 115px;}
+        margin-top: 110px;}
+        
     .galeri figure {
         margin: 0;
         padding: 0;
@@ -350,6 +352,8 @@ a:hover .EfectoFoto {
     .Logoentero:hover {
         transform: none;
     }
+    .GALERIA {
+        margin-top: 120px;}
 
     .nav-links li:hover {
         transform: none;
@@ -360,7 +364,7 @@ a:hover .EfectoFoto {
     }
 
     .nav-links {
-        margin-top: 5%;
+        margin-top: 2%;
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
@@ -370,7 +374,7 @@ a:hover .EfectoFoto {
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 110px;
         align-items: flex-start;
     }
 
