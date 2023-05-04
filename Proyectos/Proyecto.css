@@ -154,7 +154,8 @@ nav {
     display: flexbox;
     margin-right: auto;
     width: 95%;
-    border: 3px solid #DACEB6;border-radius: 20px;
+    border: 3px solid #DACEB6;
+    border-radius: 8px;
 }
 
 .TextoProyectos {
@@ -190,7 +191,7 @@ nav {
     padding: 0;
     width: 400px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
 }
@@ -199,7 +200,7 @@ nav {
     padding: 0;
     height: 100%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 8px;
     filter: grayscale(90%);
     transition: 2.3s;
 }
@@ -337,7 +338,7 @@ a:hover .EfectoFoto {
         padding: 0;
         width: 200px;
         height: 150px;
-        border-radius: 20px;
+        
     }
 
     .galeri .EfectoFoto {
