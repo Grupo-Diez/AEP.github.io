@@ -147,51 +147,35 @@ nav {
 /* Galeria fotos y cuerpo texto */
 
 
-.CUERPO {
-    margin-top: 155px;
-    margin-left: auto;
-    display: flex;
-    margin-right: auto;
-    width: 95%;
-    height: auto;
-    border-radius: 20px;
-    
 
-}
 
 
 
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-auto-rows: minmax(100px, auto);
     gap: 30px;
-    padding: 20px;
-    grid-auto-flow: dense;
+    grid-auto-flow:dense ;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
-    padding: auto;
-
-}
-
-.Item {
+    padding:auto;
+    width: 95%;
     margin: auto;
+    padding: 5%;
+    margin-top: 155px;
 
 }
 
-.Item.uno {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.Item {padding-top: 0%;
 
 }
+.Item.Proyectos{grid-column-start: 1; grid-column-end: -1;margin: auto;}
 
 .descrip {
-    margin: 3%;
+    margin-top: 0%;
     font-size: 12px;
     font-family: 'Nunito';
 }
@@ -352,11 +336,12 @@ figure:hover img {
     .ARQ3 {
         margin-top: 0%;
     }
-
+.inte.ancho{grid-column-start: 1; grid-column-end: -1;}
     .Item.alto {
-        grid-row: span 2;
-        grid-column: span 1;
+        grid-column-start: 1; grid-column-end: -1;
     }
+    .Item.Proyectos{grid-column-start: 1; grid-column-end: -1;}
+
 
     .EfectoFoto {
         top: 0;
