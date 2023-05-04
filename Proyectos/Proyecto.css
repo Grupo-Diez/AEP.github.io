@@ -339,6 +339,9 @@ figure:hover img {
     .ARQ3 {
         margin-top: 0%;
     }
+    .GridCuerpo {
+        margin-top: 113px;gap: 5px;
+    }
    
 
     .Item.alto {
@@ -407,13 +410,7 @@ figure:hover img {
     }
 
     .GridCuerpo {
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: minmax(100px, auto);
-    }
-
-    .Item.alto {
-        grid-row: span 1;
-        grid-column: span 2;
+        margin-top: 111px;
     }
 
 }
