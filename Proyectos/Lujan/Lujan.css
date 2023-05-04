@@ -149,13 +149,14 @@ nav {
 
 .CUERPO {
     margin-top: 150px;
-    margin-bottom: 150px;
     margin-left: auto;
     display:flex;
     margin-right: auto;
     width: 95%;
+    height: auto;
     border-radius: 20px;
     padding: 5%;
+    
 }
 
 
@@ -163,39 +164,26 @@ nav {
 /*GridCuerpo*/
 .GridCuerpo{
     display: grid;
-    grid-template-columns:auto auto auto;
-    width:90%;
-    gap:3px
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+    
 }
-.Item1{text-align: center;width: 100%;}
 
-.Item2{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    width: 100%;}
+.GridCuerpo .Item {align-content: center;
+    ;}
 
-.Item3{
-    grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end:4 ;
-width: 100%;}
-
-.Item4{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row: 2;
-    width:100%
-    }
-
-
-.Item5{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start:3 ;
-    width:100%;}
-.Item6{grid-column-start: 1;
-    grid-row-start: 4;
-    width:100%;}
+.uno{margin: 0;
+    text-align:center;
+    font-size: 16px;}
+.uno p{margin: auto;}
+.descrip{font-family: 'Nunito';}
+.GridCuerpo img {width: 100%;height: auto;border-radius: 8px}
+.ancho{grid-column: span 2;}
+.alto{grid-row: span 2;
+    grid-column: span 2;}
 
 
 
@@ -255,7 +243,7 @@ width: 100%;}
 
 @media (max-width: 952px) {
 
-    .Logoentero:hover {
+   .Logoentero:hover {
         transform: none;
     }
 
@@ -303,6 +291,9 @@ width: 100%;}
         margin-top: 0%;
     }
 
+    .ancho{grid-column: span 1;}
+.alto{grid-row: span 1;
+    grid-column: span 1;}
     
 }
 
