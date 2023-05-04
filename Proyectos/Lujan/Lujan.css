@@ -169,6 +169,7 @@ nav {
   gap: 20px;
   padding: 20px;
   grid-auto-flow: dense;
+  margin-bottom: 6vh;;
     
 }
 

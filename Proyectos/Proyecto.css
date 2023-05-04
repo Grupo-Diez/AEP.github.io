@@ -147,57 +147,68 @@ nav {
 /* Galeria fotos y cuerpo texto */
 
 
-.GALERIA {
+.CUERPO {
     margin-top: 150px;
-    margin-bottom: 150px;
     margin-left: auto;
-    display: flexbox;
+    display: flex;
     margin-right: auto;
     width: 95%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+
+/*GridCuerpo*/
+.GridCuerpo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 30px;
+    padding: 20px;
+    grid-auto-flow: dense;
+    margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
+
 }
 
-.TextoProyectos {
-    font-size: 18px;
+.Item {
+    margin: auto;
+
 }
 
-.TextoProyectos h1 {width: 100%;padding-left: 2%;padding-top: 1%;
-}
-
-.TextoProyectos .TextoIntro {
-    font-family: 'nunito';
-    font-size: 15px;
-    padding: 1%;
-    margin-bottom: 6%;
-    text-align: justify;
-    margin-left: 3%;
-    margin-right: 3%;
-    line-height: 1.7;
-}
-
-.GALERIAFOTOS {margin-bottom: 5%;
+.Item.uno {
+    width: 100%;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+
 }
 
-.galeri {
-    margin: 2%;
+.descrip {
+    margin: 3%;
+    font-size: 12px;
+    font-family: 'Nunito';
 }
 
-.galeri figure {
-    margin: 0;
-    padding: 0;
-    width: 400px;
-    height: 300px;
+.ancho {
+    grid-column: span 2;
+}
+
+figure {
+    margin: 0%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
 }
 
-.galeri img {
-    padding: 0;
+.GridCuerpo img {
+    margin: auto;
     height: 100%;
     width: 100%;
     border-radius: 8px;
@@ -205,7 +216,7 @@ nav {
     transition: 2.3s;
 }
 
-.galeri .EfectoFoto {
+.EfectoFoto {
     width: 100%;
     height: 100%;
     top: 0;
@@ -224,9 +235,21 @@ a:hover .EfectoFoto {
     right: 0;
 }
 
-.galeri:hover img {
+figure:hover img {
     filter: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Pie de pagina redes */
@@ -279,6 +302,7 @@ a:hover .EfectoFoto {
 
 @media (max-width: 952px) {
 
+
     .Logoentero:hover {
         transform: none;
     }
@@ -287,11 +311,8 @@ a:hover .EfectoFoto {
         transform: none;
     }
 
-    .Logoentero {
-        margin-top: 2px;}
-
     .nav-links {
-        margin-top: 2px;
+        margin-top: 5%;
         margin-inline-start: 26px;
         font-size: 18px;
         display: flex;
@@ -299,7 +320,7 @@ a:hover .EfectoFoto {
 
     .header {
         flex-direction: column;
-        height: 105px;
+        height: auto;
         align-items: flex-start;
     }
 
@@ -330,22 +351,17 @@ a:hover .EfectoFoto {
         margin-top: 0%;
     }
 
-    .GALERIA {
-        margin-top: 110px;}
-        
-    .galeri figure {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        height: 150px;
-        
+    .Item.alto {
+        grid-row: span 2;
+        grid-column: span 1;
     }
 
-    .galeri .EfectoFoto {
+    .EfectoFoto {
         top: 0;
         right: 0%;
         font-size: 12px;
     }
+
 }
 
 @media (max-width: 479px) {
@@ -353,8 +369,6 @@ a:hover .EfectoFoto {
     .Logoentero:hover {
         transform: none;
     }
-    .GALERIA {
-        margin-top: 120px;}
 
     .nav-links li:hover {
         transform: none;
@@ -365,7 +379,7 @@ a:hover .EfectoFoto {
     }
 
     .nav-links {
-        margin-top: 2%;
+        margin-top: 5%;
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
@@ -375,7 +389,7 @@ a:hover .EfectoFoto {
 
     .header {
         flex-direction: column;
-        height: 110px;
+        height: auto;
         align-items: flex-start;
     }
 
@@ -396,6 +410,16 @@ a:hover .EfectoFoto {
 
     #arecopo li {
         font-size: 15px;
+    }
+
+    .GridCuerpo {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .Item.alto {
+        grid-row: span 1;
+        grid-column: span 2;
     }
 
 }
