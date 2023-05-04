@@ -182,8 +182,7 @@ nav {
 .descrip{font-family: 'Nunito';}
 .GridCuerpo img {width: 100%;height: auto;border-radius: 8px}
 .ancho{grid-column: span 1;}
-.alto{grid-row: span 1;
-    grid-column: span 1;}
+.alto{grid-column: span 2;}
 
 
 
