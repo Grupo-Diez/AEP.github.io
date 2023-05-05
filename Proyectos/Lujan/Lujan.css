@@ -162,8 +162,12 @@ nav {
 
 }
 
-
-.Item {margin: auto;display:table-column;
+.Item.uno{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.Item {
+    display:flex;
 }
 
 iframe {width: 100%;
