@@ -157,7 +157,6 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: minmax(20px, auto);
     gap: 30px;
-    ;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
@@ -167,8 +166,6 @@ nav {
     margin-top: 155px;
     margin-bottom: 20%;
     padding-top: 0%;
-
-
 }
 
 .Item {
@@ -180,11 +177,20 @@ iframe {
     height: 100%;
     border-radius: 10px;
 }
-.Foto1{grid-column: span ;}
+
+.Foto1 {
+    grid-column: span;
+}
+
 .Item.Maipu {
     grid-column-start: 1;
-    grid-column-end: -1;}
-.Foto1{grid-column: span 2;}
+    grid-column-end: -1;
+}
+
+.Foto1 {
+    grid-column: span 2;
+}
+
 .Item.Proyectos h1 {
     margin: 0%;
     padding: 0%;
@@ -195,7 +201,9 @@ iframe {
     font-size: 16px;
     font-family: 'Nunito';
 }
-.GridCuerpo img {overflow: hidden;
+
+.GridCuerpo img {
+    overflow: hidden;
     margin: auto;
     height: 100%;
     width: 100%;
@@ -322,10 +330,13 @@ iframe {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-    .Foto1{ grid-column-start: 1;
-        grid-column-end: -1;}
 
-    
+    .Foto1 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+
 }
 
 @media (max-width: 479px) {
