@@ -147,8 +147,9 @@ nav {
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,300px));
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
     grid-auto-rows: minmax(30px, auto);
+    grid-auto-flow: dense;
     gap: 30px;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
@@ -166,7 +167,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: -1;
 }
-.Item {
+.Item {width: 100%;
     display:flex;
 }
 
@@ -192,10 +193,11 @@ iframe {width: 100%;
 }
 
 .GridCuerpo img {
-    overflow: hidden;
-    margin: auto;
+    width: auto;
     height: 100%;
-    width: 100%;
+    overflow:hidden;
+    margin: auto;
+
     border-radius: 10px;
 }
 
