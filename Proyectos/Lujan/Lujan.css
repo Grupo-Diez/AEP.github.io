@@ -144,20 +144,12 @@ nav {
 }
 
 
-/* Galeria fotos y cuerpo texto */
-
-
-
-
-
-
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: minmax(20px, auto);
-    gap: 30px;
-    grid-auto-flow:dense ;
+    grid-template-columns: repeat(auto-fit, minmax(250px,300px));
+    grid-auto-rows: minmax(30px, auto);
+    gap: 10px;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
@@ -166,41 +158,42 @@ nav {
     padding: 5%;
     margin-top: 155px;
     margin-bottom: 20%;
-       
+    font-size: 14px;
 
 }
 
-.Item {align-content: center;display: flex;}
 
-.uno{margin: auto;
-    text-align:left ;
-    text-justify: distribute;
-    font-size: 16px;
+.Item {margin: auto;display:table-column;
+}
+
+iframe {width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.Foto1 {
     grid-column: span 2;
-    display: flex;
-    flex-direction: column;
-    grid-column-start: 1; 
-    grid-column-end: -1;
+}
+
+.Item.Proyectos h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.descrip {
+    margin-top: 0%;
     font-family: 'Nunito';
 }
-.uno h2{margin: auto;}
 
-.descrip{font-family: 'Nunito';}
-
-.GridCuerpo img {margin: auto;
+.GridCuerpo img {
+    overflow: hidden;
+    margin: auto;
     height: 100%;
-    width: 100%;;height: auto;border-radius: 8px}
-
-
-.alto{grid-row: span 2;}
-.ancho {grid-column: span 1;}
-
-
-
-
-
-
-
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 /* Pie de pagina redes */
@@ -253,7 +246,8 @@ nav {
 
 @media (max-width: 952px) {
 
-   .Logoentero:hover {
+
+    .Logoentero:hover {
         transform: none;
     }
 
@@ -262,15 +256,15 @@ nav {
     }
 
     .nav-links {
-        margin-top: 5%;
+        margin-top: 1%;
         margin-inline-start: 26px;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
     }
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 111px;
         align-items: flex-start;
     }
 
@@ -301,10 +295,28 @@ nav {
         margin-top: 0%;
     }
 
-    .ancho{grid-column: span 1;}
-.alto{grid-row: span 1;
-    grid-column: span 1;}
-    
+    .GridCuerpo {
+        margin-top: 113px;
+        gap: 5px;
+    }
+
+
+    .Item.alto {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .Item.Proyectos {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .Foto1 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+
 }
 
 @media (max-width: 479px) {
@@ -322,17 +334,17 @@ nav {
     }
 
     .nav-links {
-        margin-top: 5%;
+        margin-top: 2%;
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
     }
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 109px;
         align-items: flex-start;
     }
 
@@ -353,6 +365,10 @@ nav {
 
     #arecopo li {
         font-size: 15px;
+    }
+
+    .GridCuerpo {
+        margin-top: 111px;
     }
 
 }
