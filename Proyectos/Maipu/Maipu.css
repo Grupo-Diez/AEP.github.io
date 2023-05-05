@@ -161,7 +161,7 @@ nav {
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
-    width: 95%;
+    width: 80%;
     margin: auto;
     padding: 5%;
     margin-top: 155px;
@@ -178,6 +178,7 @@ nav {
 iframe {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .Foto1{grid-column: span ;}
 .Item.Maipu {
