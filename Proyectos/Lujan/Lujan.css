@@ -149,7 +149,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,300px));
     grid-auto-rows: minmax(30px, auto);
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
