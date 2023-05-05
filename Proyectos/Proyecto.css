@@ -213,6 +213,7 @@ figure {
     right: -68%;
     position: absolute;
     font-family: 'Nunito';
+    font-size: 18px;
     color: #fff;
     text-align: center;
     display: flex;
@@ -360,6 +361,8 @@ figure:hover img {
         font-size: 12px;
     }
 
+    .EfectoFoto {font-size: 16px;}
+
 }
 
 @media (max-width: 479px) {
@@ -413,5 +416,6 @@ figure:hover img {
     .GridCuerpo {
         margin-top: 111px;
     }
+    .EfectoFoto {font-size: 10px;}
 
 }
