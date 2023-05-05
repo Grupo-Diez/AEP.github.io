@@ -159,6 +159,8 @@ nav {
     margin-top: 155px;
     margin-bottom: 20%;
     padding-top: 0%;
+    font-size: 14px;
+
 }
 
 .Item {
@@ -187,7 +189,6 @@ iframe {
 
 .descrip {
     margin-top: 0%;
-    font-size: 14px;
     font-family: 'Nunito';
 }
 
