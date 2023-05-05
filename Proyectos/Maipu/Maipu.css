@@ -179,12 +179,11 @@ iframe {
     width: 100%;
     height: 100%;
 }
-
-.Item.Proyectos {
+.Foto1{grid-column: span ;}
+.Item.Maipu {
     grid-column-start: 1;
-    grid-column-end: -1;
-}
-
+    grid-column-end: -1;}
+.Foto1{grid-column: span 2;}
 .Item.Proyectos h1 {
     margin: 0%;
     padding: 0%;
@@ -195,14 +194,7 @@ iframe {
     font-size: 16px;
     font-family: 'Nunito';
 }
-
-figure {
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
-.GridCuerpo img {
+.GridCuerpo img {overflow: hidden;
     margin: auto;
     height: 100%;
     width: 100%;
@@ -329,15 +321,10 @@ figure {
         grid-column-start: 1;
         grid-column-end: -1;
     }
+    .Foto1{ grid-column-start: 1;
+        grid-column-end: -1;}
 
-
-
-    .EfectoFoto {
-        top: 0;
-        right: 0%;
-        font-size: 12px;
-    }
-
+    
 }
 
 @media (max-width: 479px) {
