@@ -210,59 +210,6 @@ nav {
 /* media query */
 
 
-@media (max-width: 952px) {
-
-    .Logoentero:hover {
-        transform: none;
-    }
-
-    .nav-links li:hover {
-        transform: none;
-    }
-
-    .nav-links {
-        margin-top: 5%;
-        margin-inline-start: 26px;
-        font-size: 18px;
-        display: flex;
-    }
-
-    .header {
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
-    }
-
-    .nav-links li {
-        margin: 0%;
-    }
-
-    .nav-links a {
-        margin: 13px
-    }
-
-    #mediologo {
-        height: 45px;
-        width: auto;
-    }
-
-    #arecopo {
-        margin-top: 3%;
-        line-height: 13px
-    }
-
-    #arecopo li {
-        font-size: 15px;
-    }
-
-    .ARQ2,
-    .ARQ3 {
-        margin-top: 0%;
-    }
-
-    
-}
-
 @media (max-width: 479px) {
 
     .Logoentero:hover {
@@ -278,17 +225,17 @@ nav {
     }
 
     .nav-links {
-        margin-top: 5%;
+        margin-top: 2%;
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
     }
 
     .header {
         flex-direction: column;
-        height: auto;
+        height: 109px;
         align-items: flex-start;
     }
 
