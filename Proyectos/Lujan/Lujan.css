@@ -147,28 +147,30 @@ nav {
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
-    grid-auto-rows: minmax(30px, auto);
-    grid-auto-flow: dense;
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(230px,auto));
+    grid-auto-rows: minmax(20px, auto);
+    gap: 40px;
     margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
-    width: 95%;
+    width: 90%;
     margin: auto;
     padding: 5%;
     margin-top: 155px;
     margin-bottom: 20%;
     font-size: 14px;
+    overflow: hidden;
+    padding-top: 0%;
 
 }
 
-.Item.uno{
-    grid-column-start: 1;
+.Item.uno{grid-column-start: 1;
     grid-column-end: -1;
 }
 .Item {width: 100%;
     display:flex;
+       
+    border-radius: 10px;
 }
 
 iframe {width: 100%;
@@ -179,7 +181,7 @@ iframe {width: 100%;
 
 
 .Foto1 {
-    grid-column: span 2;
+    grid-column: span 2;grid-row: span 2;
 }
 
 .Item.Proyectos h1 {
@@ -193,13 +195,15 @@ iframe {width: 100%;
 }
 
 .GridCuerpo img {
+    overflow:hidden;
     width: auto;
     height: 100%;
-    overflow:hidden;
     margin: auto;
-
     border-radius: 10px;
 }
+
+
+.alto{grid-row: span 2;}
 
 
 /* Pie de pagina redes */
@@ -306,21 +310,11 @@ iframe {width: 100%;
         gap: 5px;
     }
 
-
-    .Item.alto {
+    .Item {
         grid-column-start: 1;
         grid-column-end: -1;
     }
 
-    .Item.Proyectos {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .Foto1 {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
 
 
 }
@@ -376,5 +370,4 @@ iframe {width: 100%;
     .GridCuerpo {
         margin-top: 111px;
     }
-
 }
