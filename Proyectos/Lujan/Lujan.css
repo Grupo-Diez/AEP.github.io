@@ -307,13 +307,12 @@ iframe {width: 100%;
         margin-top: 113px;
         gap: 5px;
     }
-
-    .Item {
+    .descrip {
         grid-column-start: 1;
         grid-column-end: -1;
     }
 
-
+   
 
 }
 
@@ -368,4 +367,9 @@ iframe {width: 100%;
     .GridCuerpo {
         margin-top: 111px;
     }
+    .Item {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
 }

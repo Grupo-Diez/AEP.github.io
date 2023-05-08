@@ -160,6 +160,7 @@ nav {
     margin-bottom: 20%;
     padding-top: 0%;
     font-size: 14px;
+    
 
 }
 
@@ -305,20 +306,12 @@ iframe {width: 100%;
     }
 
 
-    .Item.alto {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
 
     .Item.Proyectos {
         grid-column-start: 1;
         grid-column-end: -1;
     }
 
-    .Item.ancho {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
 
     .Foto1 {
         grid-column-start: 1;
