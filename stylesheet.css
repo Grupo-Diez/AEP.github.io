@@ -144,20 +144,102 @@ nav {
 }
 
 
-/* Galeria fotos y cuerpo texto */
+/* Cuerpo */
 
-
-.CUERPO {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    display: flexbox;
-    margin-right: auto;
+.CUERPO{display:block;
+    border: 3px solid #DACEB6;
+    border-radius: 8px;
+    margin: auto;
+    overflow: hidden;
     width: 95%;
-    border: 3px solid #004240;
-    border-radius: 20px;
-    padding: 5%;
-}
+    margin-top: 115px;
+    margin-bottom: 100px;
+    padding: 1%;
+
+    }
+
+    center{
+        height: 25px;
+        font-family:'Sigmar', cursive;
+    } 
+    
+    
+    .grid-nosotres{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto  ;
+        gap: 15px;
+        
+        
+    }
+    
+    
+    .imagen_nosotres{
+        color: #000;
+        width:30px;
+        height:30px;
+        padding-left: 35%;
+        
+        
+    }
+    
+    .parrafo_nosotres{
+        padding-left: 7px;
+    
+        color: #000;
+    }
+    
+    .nosotres-2  {
+        
+        color: #000; 
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto ;
+        padding-top: 25%;
+        padding-left: 25%;
+        gap: 5px;
+        height: fit-content;
+     
+        
+    }
+    .foto-2 img {
+    
+         
+        padding: 15px;
+        margin: 5px;
+        width: 200px;
+        height: 200px;
+     }
+    
+    .foto-2:hover{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 3px solid #000;
+        width: 200px;
+        height: 200px;
+        
+    
+    }
+    
+    
+    .nosotres-3{
+    
+        display: grid;
+        grid-template-columns: auto auto;
+       gap: 15px;
+       color: #000;
+    
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -210,6 +292,80 @@ nav {
 /* media query */
 
 
+@media (max-width: 952px) {
+
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav-links {
+        margin-top: 1%;
+        margin-inline-start: 26px;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 111px;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+    .GridCuerpo {
+        margin-top: 113px;gap: 5px;
+    }
+   
+
+    .Item.alto {
+        grid-column-start: 1; grid-column-end: -1;
+    }
+    .Item.Proyectos{grid-column-start: 1; grid-column-end: -1;}
+
+    .Item.ancho{grid-column-start: 1; grid-column-end: -1;}
+
+   
+
+    .EfectoFoto {
+        top: 0;
+        right: 0%;
+        font-size: 12px;
+    }
+
+    .EfectoFoto {font-size: 16px;}
+
+}
+
 @media (max-width: 479px) {
 
     .Logoentero:hover {
@@ -257,5 +413,10 @@ nav {
     #arecopo li {
         font-size: 15px;
     }
+
+    .GridCuerpo {
+        margin-top: 111px;
+    }
+    .EfectoFoto {font-size: 10px;}
 
 }
