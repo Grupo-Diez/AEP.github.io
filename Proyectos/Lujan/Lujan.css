@@ -168,8 +168,7 @@ nav {
     grid-column-end: -1;
 }
 .Item {width: 100%;
-    display:flex;
-       
+    display:flex;       
     border-radius: 10px;
 }
 
@@ -203,7 +202,6 @@ iframe {width: 100%;
 }
 
 
-.alto{grid-row: span 2;}
 
 
 /* Pie de pagina redes */
