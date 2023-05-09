@@ -160,10 +160,9 @@ nav {
     }
 
     center{
-        height: 25px;
         font-family:'selectric orator';font-size: 28px;
     } 
-    
+    center h1{margin: 0%;padding: 0%;}
     
     .grid-nosotres{
         display: grid;
