@@ -264,20 +264,16 @@ figure:hover img {
 
 .piepagina .redes a {
     color: black;
-    transition-duration: 0.2s;
+    transition: 0.3s;
     margin: 6px;
 }
 
-.piepagina .redes a {
-    color: black;
-    margin: 6px;
 
-}
 
 .piepagina .redes a:hover {
     color: #0E8388;
     transform: scale(1.2);
-    transition: all 0.6s
+    
 }
 
 
