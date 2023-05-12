@@ -177,7 +177,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: -1;
 }
-
+.uno h1{margin:auto}
 .dos {
     grid-column: span 2
 }
@@ -195,6 +195,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: -1;
 }
+
 
 .nosotres-3 ul {
     font-family: 'nunito';
