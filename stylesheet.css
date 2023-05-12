@@ -192,7 +192,8 @@ nav {
 }
 
 .nosotres-3 {
-    grid-column: span 3;
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
 
 .nosotres-3 ul {
