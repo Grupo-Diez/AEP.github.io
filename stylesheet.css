@@ -177,7 +177,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: -1;
 }
-.uno h1{margin:auto}
+.uno h1{margin:auto; padding: 5%;}
 .dos {
     grid-column: span 2
 }
