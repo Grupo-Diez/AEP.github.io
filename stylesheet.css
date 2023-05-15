@@ -224,19 +224,18 @@ nav {
     border-radius: 10px;
 }
 
-.foto-2 img {      
+.foto-2 img { 
+    display: flex;
+    text-align: center;
     padding: 2px;
-    margin: 0px;
+    margin: auto;
+    justify-content: center;
     width: 200px;
     height: 200px;
  }
 
 .foto-2:hover img{
-    text-align: center;
-    display: flex;
-    justify-content: center;
     border: 2px solid #000;
-
 }
 
 
