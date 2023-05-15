@@ -73,7 +73,9 @@ header div ul {
     white-space: nowrap;
     width: 0;
 }
-@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}}
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
+#arecopo li {font-size: 17px;}
+}
 /* Header logo typing efect */
 
 
