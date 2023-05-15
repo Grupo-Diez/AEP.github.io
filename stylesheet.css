@@ -74,6 +74,8 @@ header div ul {
     width: 0;
 }
 
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}}
+
 /* Header logo typing efect */
 
 

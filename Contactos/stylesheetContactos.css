@@ -67,7 +67,7 @@ header div ul {
     white-space: nowrap;
     width: 0;
 }
-
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}}
 
 .ARQ1 {
     animation: typing 1.3s steps(20, end);
