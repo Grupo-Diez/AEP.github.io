@@ -7,8 +7,7 @@ body {
     padding: 0%;
     margin: 0%;
     font-family: "Selectric Orator";
-   background-color: #004240; 
-  }
+   }
 
 @font-face {
     font-family: "Selectric Orator";
@@ -137,7 +136,7 @@ nav {
 }
 
 
-.contact_form{margin-top: 150px;
+.contact_form{margin-top: 15px;
     margin-bottom: 150px;
     margin-left: auto;
     display: flexbox;
@@ -165,10 +164,10 @@ nav {
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #0f0c0f; 
+    border-color: #0f0c0f;
     margin-top: 10px;  
     padding-left: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
   
   
@@ -227,7 +226,7 @@ nav {
   
   h1{
     font-size: 39px;  
-    text-align: letf; 
+    text-align: center; 
     padding-bottom: 20px; 
     color: #130d11;
     font-family: "Selectric Orator";
@@ -240,13 +239,12 @@ nav {
     font-size: 16px; 
     padding-bottom: 30px;
     color: #0e0e0e;
-    font-family: "Selectric Orator";
-      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+   font-family: "nunito"
       ;   
   }
   
   
-  p{
+  p{font-family: "nunito";
     font-size: 14px; 
     color: #0e0e0e; 
   }
