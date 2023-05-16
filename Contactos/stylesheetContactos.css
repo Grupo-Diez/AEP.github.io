@@ -141,18 +141,19 @@ nav {
     margin-left: auto;
     display: flexbox;
     margin-right: auto;
+    border: 3px solid #DACEB6;
+    border-radius: 8px;
     width: 95%;
+    margin-top: 155px;
+    margin-bottom: 11vh;
     }
 
   
   .formulario{
     width: 460px; 
     height: auto;
-    margin: 80px auto;
-    border-radius: 10px;  
-    padding-top: 30px;
-    padding-bottom: 20px;  
-    background-color:#daceb6; 
+    margin: auto;
+    border-radius: 10px;
     padding-left: 30px;
     
   }
@@ -366,7 +367,7 @@ nav {
     .ARQ3 {
         margin-top: 0%;
     }
-    .contact_form{margin-top: 35px;}
+    .contact_form{margin-top: 115px;}
 
     
     .formulario{width: 100%; }
@@ -428,6 +429,6 @@ nav {
     #arecopo li {
         font-size: 15px;
     }
-    .contact_form{margin-top: 38px;}
+    .contact_form{margin-top: 118px;}
 
 }
