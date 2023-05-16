@@ -232,6 +232,7 @@ iframe {width: 100%;
 .piepagina .redes a {
     color: black;
     transition: 0.2s;
+    margin: 6px;
    
 }
 
