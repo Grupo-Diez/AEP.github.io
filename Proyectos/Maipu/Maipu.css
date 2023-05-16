@@ -73,9 +73,17 @@ header div ul {
     white-space: nowrap;
     width: 0;
 }
-@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
-#arecopo li {font-size: 17px;}
+
+@-moz-document url-prefix() {
+    header div ul {
+        margin: 9.5px auto;
+    }
+
+    #arecopo li {
+        font-size: 17px;
+    }
 }
+
 /* Header logo typing efect */
 
 
@@ -159,10 +167,10 @@ nav {
     margin: auto;
     padding: 5%;
     margin-top: 155px;
-    margin-bottom:20%;
+    margin-bottom: 20%;
     padding-top: 0%;
     font-size: 14px;
-    
+
 
 }
 
@@ -170,7 +178,8 @@ nav {
     padding-top: 0%;
 }
 
-iframe {width: 100%;
+iframe {
+    width: 100%;
     height: 100%;
     border-radius: 10px;
 }
@@ -195,6 +204,7 @@ iframe {width: 100%;
     margin-top: 0%;
     font-family: 'Nunito';
 }
+
 .GridCuerpo img {
     overflow: hidden;
     margin: auto;
@@ -203,16 +213,19 @@ iframe {width: 100%;
     border-radius: 10px;
 }
 
-.descrip1{
+.descrip1 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     font-size: 17px;
     grid-column-start: 1;
     grid-column-end: -1;
     font-family: 'Nunito';
-    }
-.youtube{max-width: 400px;
-height: 300px;}
+}
+
+.youtube {
+    max-width: 400px;
+    height: 300px;
+}
 
 /* Pie de pagina redes */
 
@@ -222,10 +235,10 @@ height: 300px;}
     justify-content: space-between;
     height: 6vh;
     padding: 10px 5%;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    
+
 }
 
 .piepagina .redes {
@@ -252,7 +265,7 @@ height: 300px;}
 .piepagina .redes a:hover {
     color: #0E8388;
     transform: scale(1.2);
-    
+
 }
 
 
@@ -323,7 +336,8 @@ height: 300px;}
     }
 
 
-    .Foto1, .uno {
+    .Foto1,
+    .uno {
         grid-column-start: 1;
         grid-column-end: -1;
     }
