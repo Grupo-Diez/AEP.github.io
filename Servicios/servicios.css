@@ -3,7 +3,7 @@
 }
 
 body {
-    position:relative;
+    position: relative;
     display: flex;
     padding: 0%;
     margin: 0%;
@@ -74,9 +74,16 @@ header div ul {
     width: 0;
 }
 
-@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
-#arecopo li {font-size: 17px;}
+@-moz-document url-prefix() {
+    header div ul {
+        margin: 9.5px auto;
+    }
+
+    #arecopo li {
+        font-size: 17px;
+    }
 }
+
 /* Header logo typing efect */
 
 
@@ -146,19 +153,18 @@ nav {
     color: #0E8388;
 }
 
-main{width: 100%;}
 
 .particulares {
     display: grid;
     justify-items: center;
-    margin-bottom: 6vh;
     border: 3px solid #DACEB6;
     border-radius: 8px;
-    width: 95%;
-    margin: auto;
+    width: 94vw;
     padding: 5%;
     margin-top: 155px;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
+    margin-left: 2.5vw;
+    margin-right: 2vw;
     padding-top: 0%;
 }
 
@@ -246,7 +252,7 @@ main{width: 100%;}
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .9);
     transition: transform .3s ease-in-out;
     width: 100%;
     height: 100vh;
@@ -257,9 +263,12 @@ main{width: 100%;}
     transform: scale(0);
 }
 
-.grande img {
+.grande p {
     width: 45vw;
     max-height: 90vh;
+    font-family: 'Nunito';
+    color: azure;
+    font-size: x-large;
 }
 
 .grande:target {
@@ -267,6 +276,7 @@ main{width: 100%;}
 }
 
 .cerrar {
+    font-size: xx-large;
     display: block;
     position: absolute;
     top: 4vw;
@@ -310,27 +320,24 @@ main{width: 100%;}
 
 .piepagina .redes a {
     color: black;
-    transition-duration: 0.3s;
+    transition: 0.3s;
     margin: 6px;
 }
 
-.piepagina .redes a {
-    color: black;
-    margin: 6px;
 
-}
 
 .piepagina .redes a:hover {
     color: #0E8388;
     transform: scale(1.2);
-    
-}
 
+}
 
 
 /* media query */
 
+
 @media (max-width: 952px) {
+
 
     .Logoentero:hover {
         transform: none;
@@ -340,20 +347,16 @@ main{width: 100%;}
         transform: none;
     }
 
-    .Logoentero {
-        margin-top: 2px;
-    }
-
     .nav-links {
-        margin-top: 2px;
+        margin-top: 1%;
         margin-inline-start: 26px;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
     }
 
     .header {
         flex-direction: column;
-        height: 105px;
+        height: 111px;
         align-items: flex-start;
     }
 
@@ -384,6 +387,39 @@ main{width: 100%;}
         margin-top: 0%;
     }
 
+    .GridCuerpo {
+        margin-top: 113px;
+        gap: 5px;
+    }
+
+
+    .Item.alto {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .Item.Proyectos {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .Item.ancho {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+
+
+    .EfectoFoto {
+        top: 0;
+        right: 0%;
+        font-size: 12px;
+    }
+
+    .EfectoFoto {
+        font-size: 16px;
+    }
+
     .particulares h2 {
         font-size: 200%;
     }
@@ -398,7 +434,7 @@ main{width: 100%;}
         left: 10%;
     }
 
-    .diseno1 img{
+    .diseno1 img {
         width: 100vw;
         height: 60vh;
     }
@@ -417,14 +453,15 @@ main{width: 100%;}
         left: 10%;
     }
 
-    .diseno2 img{
+    .diseno2 img {
         width: 100vw;
         height: 60vh;
     }
 
-    .grande img {
-        width: 80vw;
+    .grande p {
+        width: 45vw;
         max-height: 90vh;
+        font-size: medium;
     }
 
     .cerrar {
@@ -432,9 +469,7 @@ main{width: 100%;}
         right: 5vw;
     }
 
-
 }
-
 
 @media (max-width: 479px) {
 
@@ -455,15 +490,16 @@ main{width: 100%;}
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
     }
 
     .header {
         flex-direction: column;
-        height: 110px;
+        height: 109px;
         align-items: flex-start;
     }
+
 
     .nav-links a {
         margin-left: 0%;
@@ -483,6 +519,14 @@ main{width: 100%;}
         font-size: 15px;
     }
 
+    .GridCuerpo {
+        margin-top: 111px;
+    }
+
+    .EfectoFoto {
+        font-size: 10px;
+    }
+
     .particulares h2 {
         font-size: 100%;
     }
@@ -498,7 +542,7 @@ main{width: 100%;}
         left: 10%;
     }
 
-    .diseno1 img{
+    .diseno1 img {
         width: 100vw;
         height: 30vh;
     }
@@ -518,20 +562,22 @@ main{width: 100%;}
         left: 10%;
     }
 
-    .diseno2 img{
+    .diseno2 img {
         width: 100vw;
         height: 30vh;
     }
 
-    .grande img {
-        width: 90vw;
-        max-height: 100vh;
+    .grande p {
+        width: 45vw;
+        max-height: 90vh;
+        font-size: medium;
     }
 
     .cerrar {
-        top: 25%;
+        top: 10%;
         right: 5%;
+        width: 8vw;
+        height: 8vw;
     }
 
 }
-
