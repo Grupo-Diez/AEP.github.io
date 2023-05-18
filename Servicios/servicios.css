@@ -570,6 +570,8 @@ nav {
     .grande p {
         width: 45vw;
         max-height: 90vh;
+        font-family: 'Nunito';
+        color: azure;
         font-size: medium;
     }
 
