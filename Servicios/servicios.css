@@ -149,13 +149,16 @@ nav {
 
 .particulares {
     display: grid;
-    margin: 27vh 10vw 5vh 10vw;
-    padding-bottom: 1.5em;
     justify-items: center;
-    width: 80vw;
-    height: auto;
-    border: 3px solid #daceb6;
-    border-radius: 20px;
+    margin-bottom: 6vh;
+    border: 3px solid #DACEB6;
+    border-radius: 8px;
+    width: 95%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 155px;
+    margin-bottom: 8vh;
+    padding-top: 0%;
 }
 
 .particulares h2 {
@@ -193,13 +196,16 @@ nav {
 
 .sociales {
     display: grid;
-    margin: 5vh 10vw 15vh 10vw;
     justify-items: center;
-    padding-bottom: 3em;
-    width: 80vw;
-    height: auto;
-    border: 3px solid #daceb6;
-    border-radius: 20px;
+    margin-bottom: 6vh;
+    border: 3px solid #DACEB6;
+    border-radius: 8px;
+    width: 95%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 50px;
+    margin-bottom: 8vh;
+    padding-top: 0%;
 }
 
 .sociales h2 {
@@ -377,10 +383,6 @@ nav {
         margin-top: 0%;
     }
 
-    .particulares {
-        margin-top: 40vh;
-    }
-
     .particulares h2 {
         font-size: 200%;
     }
@@ -478,11 +480,6 @@ nav {
 
     #arecopo li {
         font-size: 15px;
-    }
-
-    
-    .particulares {
-        margin-top: 20vh;
     }
 
     .particulares h2 {
