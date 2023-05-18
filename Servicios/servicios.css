@@ -483,10 +483,15 @@ nav {
     }
 
     .diseno1 p {
-        font-size: 130%;
+        font-size: 100%;
         font-weight: 900;
-        top: 10%;
+        top: 20%;
         left: 10%;
+    }
+
+    .diseno1 img{
+        width: 100vw;
+        height: 30vh;
     }
 
     .sociales h2 {
@@ -499,10 +504,15 @@ nav {
     }
 
     .diseno2 p {
-        font-size: 130%;
+        font-size: 100%;
         font-weight: 900;
-        top: 10%;
+        top: 20%;
         left: 10%;
+    }
+
+    .diseno2 img{
+        width: 100vw;
+        height: 30vh;
     }
 
     .grande img {
