@@ -188,7 +188,7 @@ nav {
     font-weight: 900;
     color: rgb(250, 245, 245);
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 15%;
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgb(14, 3, 3);
@@ -235,7 +235,7 @@ nav {
     font-weight: 900;
     color: rgb(250, 245, 245);
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 15%;
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgb(14, 3, 3);
@@ -393,7 +393,6 @@ nav {
 
     .diseno1 p {
         font-size: 200%;
-        top: 20%;
         left: 10%;
     }
 
@@ -412,7 +411,6 @@ nav {
 
     .diseno2 p {
         font-size: 200%;
-        top: 20%;
         left: 10%;
     }
 
@@ -494,7 +492,6 @@ nav {
     .diseno1 p {
         font-size: 100%;
         font-weight: 900;
-        top: 20%;
         left: 10%;
     }
 
@@ -515,7 +512,6 @@ nav {
     .diseno2 p {
         font-size: 100%;
         font-weight: 900;
-        top: 20%;
         left: 10%;
     }
 
