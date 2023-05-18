@@ -170,7 +170,7 @@ main{width: 100%;}
 }
 
 .diseno1 {
-    width: 50%;
+    width: 80%;
     height: 95%;
     position: relative;
     overflow: hidden;
@@ -179,8 +179,8 @@ main{width: 100%;}
 }
 
 .diseno1 img {
-    width: 50vw;
-    height: 50vh;
+    width: 70vw;
+    height: 70vh;
 }
 
 .diseno1 p {
@@ -189,7 +189,7 @@ main{width: 100%;}
     font-weight: 900;
     color: rgb(250, 245, 245);
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 15%;
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgb(14, 3, 3);
@@ -217,7 +217,7 @@ main{width: 100%;}
 }
 
 .diseno2 {
-    width: 50%;
+    width: 80%;
     height: 95%;
     position: relative;
     overflow: hidden;
@@ -226,8 +226,8 @@ main{width: 100%;}
 }
 
 .diseno2 img {
-    width: 50vw;
-    height: 50vh;
+    width: 70vw;
+    height: 70vh;
 }
 
 .diseno2 p {
@@ -236,7 +236,7 @@ main{width: 100%;}
     font-weight: 900;
     color: rgb(250, 245, 245);
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 15%;
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgb(14, 3, 3);
@@ -394,7 +394,7 @@ main{width: 100%;}
 
     .diseno1 p {
         font-size: 200%;
-        top: 20%;
+        top: 5%;
         left: 10%;
     }
 
@@ -413,7 +413,7 @@ main{width: 100%;}
 
     .diseno2 p {
         font-size: 200%;
-        top: 20%;
+        top: 5%;
         left: 10%;
     }
 
@@ -495,7 +495,6 @@ main{width: 100%;}
     .diseno1 p {
         font-size: 100%;
         font-weight: 900;
-        top: 20%;
         left: 10%;
     }
 
@@ -516,7 +515,6 @@ main{width: 100%;}
     .diseno2 p {
         font-size: 100%;
         font-weight: 900;
-        top: 20%;
         left: 10%;
     }
 
