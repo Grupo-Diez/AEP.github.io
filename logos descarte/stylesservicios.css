@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Selectric Orator";
+}
+
+
+@font-face {
+    font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "D-DINCondensed";
+    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)
+}
+
+
+
+/* Header y navbar */
+
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 10px 5%;
+    margin-top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+/* Header Logo */
+
+
+.Logoentero {
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Linklogo {
+    text-decoration: none;
+    display: flex;
+}
+
+#mediologo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+header div ul {
+    padding: 0%;
+    margin: 15px auto;
+    line-height: 14px;
+}
+
+#arecopo li {
+    font-size: 19px;
+    color: black;
+    letter-spacing: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
+#arecopo li {font-size: 17px;}
+}
+/* Header logo typing efect */
+
+
+.ARQ1 {
+    animation: typing 1.3s steps(20, end);
+    animation-fill-mode: forwards
+}
+
+.ARQ2 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards
+}
+
+.ARQ3 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.Logoentero:hover {
+    transform: scale(1.1);
+    transition: all 0.4s
+}
+
+
+/* Header menu navbar */
+
+
+nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 19px
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+.nav-links a {
+    text-decoration: none;
+    Color: black;
+    padding: 0%;
+    margin: 1vh;
+}
+
+.nav-links li a:hover {
+    color: #0E8388;
+}
+
+
+/* Cuerpo */
+
+
+
+
+
+
+
+
+
+
+
+/* Pie de pagina redes */
+
+.piepagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 10px 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.piepagina .redes {
+    margin: auto;
+    border-top: 1px solid black;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piepagina .redes .icons {
+    display: flex;
+}
+
+.piepagina .redes a {
+    color: black;
+    transition-duration: 0.3s;
+    margin: 6px;
+}
+
+.piepagina .redes a {
+    color: black;
+    margin: 6px;
+
+}
+
+.piepagina .redes a:hover {
+    color: #0E8388;
+    transform: scale(1.2);
+    
+}
+
+
+/* media query */
+
+
+@media (max-width: 952px) {
+
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav-links {
+        margin-top: 1%;
+        margin-inline-start: 26px;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 111px;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+
+    .GridCuerpo {
+        margin-top: 113px;
+        gap: 5px;
+    }
+
+
+    .Item {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .nosotres-3 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .grupa {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .dos {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+
+
+}
+
+@media (max-width: 479px) {
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav {
+        margin: 0%;
+    }
+
+    .nav-links {
+        margin-top: 2%;
+        padding: 0%;
+        margin-inline-start: 0;
+        margin-left: 0%;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 109px;
+        align-items: flex-start;
+    }
+
+
+    .nav-links a {
+        margin-left: 0%;
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .GridCuerpo {
+        margin-top: 111px;
+    }
+
+    .EfectoFoto {
+        font-size: 10px;
+    }
+
+}
