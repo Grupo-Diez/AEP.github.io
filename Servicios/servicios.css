@@ -3,7 +3,7 @@
 }
 
 body {
-    position: relative;
+    position: absolute;
     display: flex;
     padding: 0%;
     margin: 0%;
@@ -32,12 +32,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: auto;
-    padding: 2% 5%;
+    height: 90px;
+    padding: 10px 5%;
     margin-top: 0;
     position: fixed;
     z-index: 100;
-    width: 100vw;
+    width: 100%;
 }
 
 /* Header Logo */
@@ -55,24 +55,25 @@ body {
 }
 
 #mediologo {
-    height: 12vh;
-    margin-right: 1rem;
+    height: 60px;
+    margin-right: 10px;
 }
 
 header div ul {
     padding: 0%;
-    margin: 1rem auto;
-    line-height: 3vh;
+    margin: 15px auto;
+    line-height: 14px;
 }
 
 #arecopo li {
-    font-size: 1.2rem;
+    font-size: 19px;
     color: black;
-    letter-spacing: .1rem;
+    letter-spacing: 3px;
     overflow: hidden;
     white-space: nowrap;
     width: 0;
 }
+
 @-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
 #arecopo li {font-size: 17px;}
 }
@@ -122,7 +123,7 @@ nav {
 
 .nav-links {
     list-style: none;
-    font-size: 1.2rem
+    font-size: 19px
 }
 
 .nav-links li {
@@ -145,24 +146,26 @@ nav {
     color: #0E8388;
 }
 
-.particulares{
-    display:grid;
+
+.particulares {
+    display: grid;
     margin: 27vh 10vw 5vh 10vw;
     padding-bottom: 1.5em;
     justify-items: center;
     width: 80vw;
     height: auto;
-    border: 3px solid #ae5626;border-radius: 20px;
+    border: 3px solid #daceb6;
+    border-radius: 20px;
 }
 
-.particulares h2{
+.particulares h2 {
     font-family: "Selectric Orator";
-      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
     font-size: 2rem;
     text-align: center;
 }
 
-.diseno1{
+.diseno1 {
     width: 50%;
     height: 95%;
     position: relative;
@@ -171,35 +174,36 @@ nav {
     box-shadow: 8px 10px 12px black;
 }
 
-.diseno1 img{
+.diseno1 img {
     width: 100%;
     height: 100%;
 }
 
-.diseno1 p{
-   font-size: 2.6rem;
-   font-weight: 900;
-   color:rgb(250, 245, 245);
-   position:absolute;
-   top: 30%;
-   left: 15%;
-   transform: translate(-50% -50%);
-   text-shadow: 0 0 8px rgb(14, 3, 3);
+.diseno1 p {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: rgb(250, 245, 245);
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50% -50%);
+    text-shadow: 0 0 8px rgb(14, 3, 3);
 }
 
-.sociales{
+.sociales {
     display: grid;
     margin: 5vh 10vw 15vh 10vw;
     justify-items: center;
     padding-bottom: 3em;
     width: 80vw;
     height: auto;
-    border: 3px solid #ae5626;border-radius: 20px;
+    border: 3px solid #daceb6;
+    border-radius: 20px;
 }
 
-.sociales h2{
+.sociales h2 {
     font-family: "Selectric Orator";
-      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
     font-size: 2rem;
     text-align: center;
 }
@@ -213,23 +217,23 @@ nav {
     box-shadow: 8px 10px 12px black;
 }
 
-.diseno2 img{
+.diseno2 img {
     width: 100%;
     height: 100%;
 }
 
-.diseno2 p{
-   font-size: 2.6rem;
-   font-weight: 900;
-   color:rgb(250, 245, 245);
-   position:absolute;
-   top: 30%;
-   left: 15%;
-   transform: translate(-50% -50%);
-   text-shadow: 0 0 8px rgb(14, 3, 3);
+.diseno2 p {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: rgb(250, 245, 245);
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50% -50%);
+    text-shadow: 0 0 8px rgb(14, 3, 3);
 }
 
-.grande{
+.grande {
     position: fixed;
     top: 0;
     left: 0;
@@ -244,16 +248,16 @@ nav {
     transform: scale(0);
 }
 
-.grande img{
+.grande img {
     width: 45vw;
     max-height: 90vh;
 }
 
-.grande:target{
+.grande:target {
     transform: scale(1);
 }
 
-.cerrar{
+.cerrar {
     display: block;
     position: absolute;
     top: 4vw;
@@ -276,7 +280,7 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 6vh;
-    padding: 2% 5%;
+    padding: 10px 5%;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -297,28 +301,134 @@ nav {
 
 .piepagina .redes a {
     color: black;
-    transition: 0.3s;
+    transition-duration: 0.3s;
     margin: 6px;
+}
+
+.piepagina .redes a {
+    color: black;
+    margin: 6px;
+
 }
 
 .piepagina .redes a:hover {
     color: #0E8388;
     transform: scale(1.2);
+    
 }
+
 
 
 /* media query */
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 952px) {
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .Logoentero {
+        margin-top: 2px;
+    }
+
+    .nav-links {
+        margin-top: 2px;
+        margin-inline-start: 26px;
+        font-size: 18px;
+        display: flex;
+    }
+
     .header {
         flex-direction: column;
-        height: auto;
+        height: 105px;
         align-items: flex-start;
     }
 
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
     #mediologo {
-        height: 7vh;
+        height: 45px;
         width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+
+    .particulares {
+        margin-top: 35vh;
+    }
+
+    .particulares h2 {
+        font-size: 200%;
+    }
+
+    .diseno1 {
+        width: 70%;
+    }
+
+    .diseno1 p {
+        font-size: 300%;
+        top: 10%;
+        left: 10%;
+    }
+
+    .sociales h2 {
+        font-size: 200%;
+    }
+
+    .diseno2 {
+        width: 70%;
+    }
+
+    .diseno2 p {
+        font-size: 300%;
+        top: 10%;
+        left: 10%;
+    }
+
+    .grande img {
+        width: 80vw;
+        max-height: 90vh;
+    }
+
+    .cerrar {
+        top: 5vw;
+        right: 5vw;
+    }
+
+
+}
+
+
+@media (max-width: 479px) {
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
     }
 
     .nav {
@@ -330,212 +440,80 @@ nav {
         padding: 0%;
         margin-inline-start: 0;
         margin-left: 0%;
-        font-size: .8em;
+        font-size: 18px;
         display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 110px;
+        align-items: flex-start;
     }
 
     .nav-links a {
         margin-left: 0%;
     }
 
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
     #arecopo {
-        margin-top: 4%;
-        line-height: 2vh
+        margin-top: 3%;
+        line-height: 13px
     }
 
     #arecopo li {
-        font-size: .8rem;
+        font-size: 15px;
     }
 
-    .particulares{
-        margin-top: 18vh;
+    
+    .particulares {
+        margin-top: 20vh;
     }
-    .particulares h2{
+
+    .particulares h2 {
         font-size: 100%;
     }
-    
-    .diseno1{
+
+    .diseno1 {
         width: 80%;
         height: 95%;
     }
 
-    .diseno1 p{
+    .diseno1 p {
         font-size: 130%;
         font-weight: 900;
         top: 10%;
         left: 10%;
-     }
+    }
 
-    .sociales h2{
+    .sociales h2 {
         font-size: 100%;
     }
-    
-    .diseno2{
+
+    .diseno2 {
         width: 80%;
         height: 95%;
     }
 
-    .diseno2 p{
+    .diseno2 p {
         font-size: 130%;
         font-weight: 900;
         top: 10%;
         left: 10%;
-     }
+    }
 
-     .grande img{
+    .grande img {
         width: 90vw;
         max-height: 100vh;
     }
 
-    .cerrar{
+    .cerrar {
         top: 25%;
         right: 5%;
     }
-}
 
-@media only screen and (min-width: 501px) and (max-width: 768px){
-    .header {
-        height:25vh;
-        align-items: flex-start;
-    }
-
-    .nav {
-        margin-top: 2%;
-        align-items: center;
-    }
-
-    .nav-links {
-        font-size: 1rem;
-        display: flex;
-    }
-
-    #mediologo {
-        height: 15vh;
-        width: auto;
-    }
-
-    #arecopo {
-        margin-top: 3%;
-        line-height: 4vh
-    }
-
-    #arecopo li {
-        font-size: .8rem;
-    }
-
-    .particulares{
-        margin-top: 28vh;
-    }
-    .particulares h2{
-        font-size: 200%;
-    }
-    
-    .diseno1{
-        width: 70%;
-    }
-
-    .diseno1 p{
-        font-size: 200%;
-        top: 10%;
-        left: 10%;
-     }
-
-    .sociales h2{
-        font-size: 200%;
-    }
-    
-    .diseno2{
-        width: 70%;
-    }
-
-    .diseno2 p{
-        font-size: 200%;
-        top: 10%;
-        left: 10%;
-     }
-
-     .grande img{
-        width: 80vw;
-        max-height: 90vh;
-    }
-
-    .cerrar{
-        top: 5vw;
-        right: 5vw;
-    }
-    
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1000px){
-    .header {
-        height:25vh;
-        align-items: flex-start;
-    }
-
-    .nav {
-        margin-top: 2%;
-        align-items: center;
-    }
-
-    .nav-links {
-        font-size: 1rem;
-        display: flex;
-    }
-
-    #mediologo {
-        height: 15vh;
-        width: auto;
-    }
-
-    #arecopo {
-        margin-top: 3%;
-        line-height: 4vh
-    }
-
-    #arecopo li {
-        font-size: 1rem;
-    }
-
-    .particulares{
-        margin-top: 30vh;
-    }
-    .particulares h2{
-        font-size: 200%;
-    }
-    
-    .diseno1{
-        width: 70%;
-    }
-
-    .diseno1 p{
-        font-size: 300%;
-        top: 10%;
-        left: 10%;
-     }
-
-    .sociales h2{
-        font-size: 200%;
-    }
-    
-    .diseno2{
-        width: 70%;
-    }
-
-    .diseno2 p{
-        font-size: 300%;
-        top: 10%;
-        left: 10%;
-     }
-
-     .grande img{
-        width: 80vw;
-        max-height: 90vh;
-    }
-
-    .cerrar{
-        top: 5vw;
-        right: 5vw;
-    }
-    
 }
 
