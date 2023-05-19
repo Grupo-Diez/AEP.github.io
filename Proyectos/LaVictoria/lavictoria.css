@@ -157,6 +157,7 @@ nav {
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
+    grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: minmax(20px, auto);
     gap: 40px;
@@ -193,6 +194,7 @@ iframe {
 
 .Foto1 {
     grid-column: span 2;
+    grid-row: span 2;
 }
 
 .Item h1 {
