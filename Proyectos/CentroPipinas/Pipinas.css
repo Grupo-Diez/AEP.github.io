@@ -192,7 +192,7 @@ iframe {
 
 
 .Foto1 {
-    grid-column: span 2;
+    grid-column: span 2;grid-row: span 2;
 }
 
 .Item h1 {
