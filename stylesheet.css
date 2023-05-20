@@ -229,14 +229,14 @@ nav {
 
 .foto-2 img { 
     display: flex;
+    overflow: hidden;
     text-align: center;
     padding: 2px;
     margin: auto;
     justify-content: center;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
  }
-
 .foto-2:hover img{
     border: 2px solid #000;
 }
