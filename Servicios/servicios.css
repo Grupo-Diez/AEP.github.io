@@ -279,7 +279,7 @@ nav {
     font-size: xx-large;
     display: block;
     position: absolute;
-    top: 4vw;
+    top: 5vw;
     right: 20vw;
     background: rgb(245, 68, 68);
     color: rgb(211, 233, 253);
@@ -287,8 +287,7 @@ nav {
     width: 3vw;
     height: 3vw;
     text-align: center;
-    line-height: 3vw;
-    border-radius: 50%;
+    line-height: 4vw;
 }
 
 
@@ -465,6 +464,7 @@ nav {
     }
 
     .cerrar {
+        font-size: x-large;
         top: 5vw;
         right: 5vw;
     }
@@ -576,10 +576,11 @@ nav {
     }
 
     .cerrar {
-        top: 10%;
-        right: 5%;
+        top: 10vh;
+        right: 5vw;
         width: 8vw;
         height: 8vw;
+        line-height: 10vw
     }
 
 }
