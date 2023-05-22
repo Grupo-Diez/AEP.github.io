@@ -206,3 +206,144 @@ nav {
     transform: scale(1.2);
     transition: all 0.6s
 }
+body{
+    height: 100%; 
+    font-family: "Selectric Orator";
+      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+      ;
+    background-color: #004240; 
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color:#daceb6; 
+    padding-left: 30px; 
+    
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #0f0c0f; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #161115; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ae5626; 
+    border-color: #0e0d0d; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #daceb6;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  span{
+    color: #0f0e0f; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #130d11;
+    font-family: "Selectric Orator";
+      src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+      ;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;
+    font-family: 'Nunito', sans-serif;
+      ;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #daceb6;
+   font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #dfd9d9;
+ }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #cfcfcf;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #f3efef;
+  }
+  
