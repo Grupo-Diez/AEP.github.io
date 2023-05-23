@@ -74,9 +74,17 @@ header div ul {
     width: 0;
 }
 
-@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
-#arecopo li {font-size: 17px;}
+
+@-moz-document url-prefix() {
+    header div ul {
+        margin: 9.5px auto;
+    }
+
+    #arecopo li {
+        font-size: 17px;
+    }
 }
+
 /* Header logo typing efect */
 
 
@@ -149,9 +157,93 @@ nav {
 
 /* Cuerpo */
 
+.GridCuerpo {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 2%;
+    margin-bottom: 10%;
+    width: 80%;
+    margin: auto;
+    margin-top: 155px;
+    font-size: 14px;
+}
+
+.dibujos {
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    border: 3px solid white;
+    border-left: none;
+
+}
+
+.LinkDibujos {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dibujos.uno {
+    grid-column: span 2;
+
+}
+
+.boseto {
+    display: flex;
+    margin: 2%;
+    max-width: 200px;
+}
+
+.dibujos h4 {
+    margin: auto;
+    margin-left: 3%;
+    visibility: hidden;
+    color: black;
+}
+
+.dibujos:hover {
+    border-radius: 8px;
+    border: 3px solid #0E8388;
+    border-left: none;
+
+
+}
+
+.dibujos:hover h4 {
+    visibility: visible;
+}
+
+.Item.dos {
+    grid-column: span 2
+}
+
+.descrip {
+    font-family: "Nunito";
+    margin: auto;
+}
 
 
 
+.grupa {
+    margin: auto;
+    grid-column: span 2;
+}
+
+.Fotogrupal {
+    overflow: hidden;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.Titulo {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: auto;
+}
 
 
 
@@ -200,7 +292,7 @@ nav {
 .piepagina .redes a:hover {
     color: #0E8388;
     transform: scale(1.2);
-    
+
 }
 
 
@@ -268,19 +360,22 @@ nav {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-    .nosotres-3 {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
+
     .grupa {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-    .dos {
+
+    .Item.dos {
         grid-column-start: 1;
         grid-column-end: -1;
     }
 
+    .boseto {
+        display: flex;
+        margin: 2%;
+        max-width: 50%;
+    }
 
 
 }
