@@ -3,7 +3,7 @@
 }
 
 body {
-    position: absolute;
+    position:relative;
     display: flex;
     padding: 0%;
     margin: 0%;
@@ -156,15 +156,18 @@ nav {
 
 
 /* Cuerpo */
+.cuerpo{margin-bottom: 20vh;
+    width: 80%;
+    margin: auto;}
 
 .GridCuerpo {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-auto-rows: minmax(100px, auto);
-    gap: 2%;
-    margin-bottom: 10%;
-    width: 80%;
+    gap: 30px;
+    margin-bottom: 10vh;
     margin: auto;
+    width: 98%;
     margin-top: 155px;
     font-size: 14px;
 }
@@ -242,8 +245,7 @@ nav {
 .Titulo {
     grid-column-start: 1;
     grid-column-end: -1;
-    margin: auto;
-}
+    margin: auto;}
 
 
 
@@ -370,7 +372,7 @@ nav {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-
+.boseto.uno{max-width: 39%;}
     .boseto {
         display: flex;
         margin: 2%;
@@ -435,5 +437,9 @@ nav {
     .EfectoFoto {
         font-size: 10px;
     }
+     .dibujos.uno{grid-column-start: 1;
+        grid-column-end: -1;}
+    .dibujos {grid-column-start: 1;
+            grid-column-end: -1;}
 
 }
