@@ -15,92 +15,88 @@
     rel="stylesheet">
 
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // Obtén una referencia al elemento con la clase "str0" dentro del div4
-        var str0Element = document.querySelector('.div4 .str0');
-        // Obtén una referencia al elemento con la clase "fil1" dentro del div4
-        var fil1Element = document.querySelector('.div4 .fil1');
-        // Obtén una referencia al enlace con la clase "Nosotres internal links" dentro de div1
-        var nosotresLink = document.querySelector('.div1 .Nosotres.internal.links');
-        // Obtén una referencia al enlace con la clase "Proyectos internal links" dentro de div3
-        var proyectosLink = document.querySelector('.div3 .Proyectos.internal.links');
-        // Obtén una referencia al enlace con la clase "Servicios internal links" dentro de div2
-        var serviciosLink = document.querySelector('.div2 .Servicios.internal.links');
-        // Obtén una referencia al elemento con la clase "icons"
-        var opaElements = document.querySelectorAll('.div7 .icons .opa');
-        
-        // Función para cambiar el color al pasar el mouse sobre los iconos
-        function changeIconColor(color) {
-          iconsElement.querySelectorAll('svg').forEach(function(svg) {
-            svg.style.fill = color;
-          });
-        }
-        
-        // Agrega un event listener para el evento mouseenter en el enlace de Nosotres
-        nosotresLink.addEventListener('mouseenter', function() {
-          // Cambia el color de los elementos str0 y fil1 para Nosotres
-          str0Element.style.stroke = '#4B7944';
-          fil1Element.style.fill = '#4B7944';
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Obtén una referencia al elemento con la clase "str0" dentro del div4
+      var str0Element = document.querySelector('.div4 .str0');
+      // Obtén una referencia al elemento con la clase "fil1" dentro del div4
+      var fil1Element = document.querySelector('.div4 .fil1');
+      // Obtén una referencia al enlace con la clase "Nosotres internal links" dentro de div1
+      var nosotresLink = document.querySelector('.div1 .Nosotres.internal.links');
+      // Obtén una referencia al enlace con la clase "Proyectos internal links" dentro de div3
+      var proyectosLink = document.querySelector('.div3 .Proyectos.internal.links');
+      // Obtén una referencia al enlace con la clase "Servicios internal links" dentro de div2
+      var serviciosLink = document.querySelector('.div2 .Servicios.internal.links');
+      // Obtén una referencia al elemento con la clase "icons"
+      var opaElements = document.querySelectorAll('.div7 .icons .opa');
+
+      // Función para cambiar el color al pasar el mouse sobre los iconos
+      function changeIconColor(color) {
+        iconsElement.querySelectorAll('svg').forEach(function (svg) {
+          svg.style.fill = color;
         });
-        
-        // Agrega un event listener para el evento mouseleave en el enlace de Nosotres
-        nosotresLink.addEventListener('mouseleave', function() {
-          // Restaura el color de los elementos str0 y fil1 a su valor original
-          str0Element.style.stroke = 'black';
-          fil1Element.style.fill = 'black';
-        });
-      
-        // Agrega un event listener para el evento mouseenter en el enlace de Proyectos
-        proyectosLink.addEventListener('mouseenter', function() {
-          // Cambia el color de los elementos str0 y fil1 para Proyectos
-          str0Element.style.stroke = '#FDC03F';
-          fil1Element.style.fill = '#FDC03F';
-        });
-        
-        // Agrega un event listener para el evento mouseleave en el enlace de Proyectos
-        proyectosLink.addEventListener('mouseleave', function() {
-          // Restaura el color de los elementos str0 y fil1 a su valor original
-          str0Element.style.stroke = 'black';
-          fil1Element.style.fill = 'black';
-        });
-      
-        // Agrega un event listener para el evento mouseenter en el enlace de Servicios
-        serviciosLink.addEventListener('mouseenter', function() {
-          // Cambia el color de los elementos str0 y fil1 para Servicios
-          str0Element.style.stroke = '#4B6779';
-          fil1Element.style.fill = '#4B6779';
-        });
-        
-        // Agrega un event listener para el evento mouseleave en el enlace de Servicios
-        serviciosLink.addEventListener('mouseleave', function() {
-          // Restaura el color de los elementos str0 y fil1 a su valor original
-          str0Element.style.stroke = 'black';
-          fil1Element.style.fill = 'black';
-        });
-      
-       // Itera sobre cada elemento .opa y agrega los event listeners
-opaElements.forEach(function(opaElement) {
-  // Agrega un event listener para el evento mouseenter
-  opaElement.addEventListener('mouseenter', function() {
-    // Cambia el color de los elementos str0 y fil1 para Servicios
-    str0Element.style.stroke = '#EF4939';
-    fil1Element.style.fill = '#EF4939';
-  });
-  
-  // Agrega un event listener para el evento mouseleave
-  opaElement.addEventListener('mouseleave', function() {
-    // Restaura el color de los elementos str0 y fil1 a su valor original
-    str0Element.style.stroke = 'black';
-    fil1Element.style.fill = 'black';
-  });
-});
+      }
+
+      // Agrega un event listener para el evento mouseenter en el enlace de Nosotres
+      nosotresLink.addEventListener('mouseenter', function () {
+        // Cambia el color de los elementos str0 y fil1 para Nosotres
+        str0Element.style.stroke = '#4B7944';
+        fil1Element.style.fill = '#4B7944';
       });
-    </script>
-    
-    
-    
-    
+
+      // Agrega un event listener para el evento mouseleave en el enlace de Nosotres
+      nosotresLink.addEventListener('mouseleave', function () {
+        // Restaura el color de los elementos str0 y fil1 a su valor original
+        str0Element.style.stroke = 'black';
+        fil1Element.style.fill = 'black';
+      });
+
+      // Agrega un event listener para el evento mouseenter en el enlace de Proyectos
+      proyectosLink.addEventListener('mouseenter', function () {
+        // Cambia el color de los elementos str0 y fil1 para Proyectos
+        str0Element.style.stroke = '#FDC03F';
+        fil1Element.style.fill = '#FDC03F';
+      });
+
+      // Agrega un event listener para el evento mouseleave en el enlace de Proyectos
+      proyectosLink.addEventListener('mouseleave', function () {
+        // Restaura el color de los elementos str0 y fil1 a su valor original
+        str0Element.style.stroke = 'black';
+        fil1Element.style.fill = 'black';
+      });
+
+      // Agrega un event listener para el evento mouseenter en el enlace de Servicios
+      serviciosLink.addEventListener('mouseenter', function () {
+        // Cambia el color de los elementos str0 y fil1 para Servicios
+        str0Element.style.stroke = '#4B6779';
+        fil1Element.style.fill = '#4B6779';
+      });
+
+      // Agrega un event listener para el evento mouseleave en el enlace de Servicios
+      serviciosLink.addEventListener('mouseleave', function () {
+        // Restaura el color de los elementos str0 y fil1 a su valor original
+        str0Element.style.stroke = 'black';
+        fil1Element.style.fill = 'black';
+      });
+
+      // Itera sobre cada elemento .opa y agrega los event listeners
+      opaElements.forEach(function (opaElement) {
+        // Agrega un event listener para el evento mouseenter
+        opaElement.addEventListener('mouseenter', function () {
+          // Cambia el color de los elementos str0 y fil1 para Servicios
+          str0Element.style.stroke = '#EF4939';
+          fil1Element.style.fill = '#EF4939';
+        });
+
+        // Agrega un event listener para el evento mouseleave
+        opaElement.addEventListener('mouseleave', function () {
+          // Restaura el color de los elementos str0 y fil1 a su valor original
+          str0Element.style.stroke = 'black';
+          fil1Element.style.fill = 'black';
+        });
+      });
+    });
+  </script>
 
 
 
@@ -108,18 +104,24 @@ opaElements.forEach(function(opaElement) {
 
 
 
-    <title>Aep - ARQUITECTES DE LA ECONOMIA POPULAR </title>
+
+
+
+
+  <title>Aep - ARQUITECTES DE LA ECONOMIA POPULAR </title>
 </head>
 
 <body>
   <div class="parent" id="myAnim">
+
 
     <div class="div1">
       <a class="Nosotres internal links" target="_self" href="/Nosotres/Nosotres.html">Nosotres</a>
     </div>
 
     <div class="div2">
-      <a class="Servicios internal links" class="Servicios" target="_self" href="/Servicios/Servicios.html">Servicios</a>
+      <a class="Servicios internal links" class="Servicios" target="_self"
+        href="/Servicios/Servicios.html">Servicios</a>
     </div>
 
     <div class="div3">
@@ -127,15 +129,17 @@ opaElements.forEach(function(opaElement) {
     </div>
 
     <div class="div4">
-      <svg class="Tramado" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="279.553mm" height="209.867mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 27967 20995"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <g id="Capa_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path id="fil0 str0" class="fil0 str0" d="M42 7014l6972 0 0 -6972 -6972 0 0 6972 6972 -6972m0 6972l6968 0 0 -6972 -6968 0 0 6972m6968 0l6971 0 0 -6972 -6971 0 0 6972m6971 0l6972 0 0 -6972 -6972 0 0 6972m-13939 -3486l6968 0m-3 3482c1924,0 3484,-1560 3484,-3483 0,-1925 -1560,-3484 -3484,-3484m13946 13939l-6972 0 0 -6968 6972 0 0 6968 -6972 -6968m0 6968l-6971 0 0 -6968 6971 0 0 6968m-6971 0l-6968 0 0 -6968 6968 0 0 6968m-6968 0l-6972 0 0 -6968 6972 0 0 6968m13939 -3483l-6971 0m-3 -3485c-1924,0 -3483,1560 -3483,3483 0,1925 1560,3484 3483,3484m-13937 1l6972 0 0 6971 -6972 0 0 -6971 6972 6971m0 -6971l6968 0 0 6971 -6968 0 0 -6971m6968 0l6971 0 0 6971 -6971 0 0 -6971m6971 0l6972 0 0 6971 -6972 0 0 -6971zm-6974 6968c1924,0 3484,-1560 3484,-3484 0,-1924 -1560,-3483 -3484,-3483"/>
-  <rect id="fil1 str1" class="fil1 str1" x="20953" y="13982" width="6971" height="6971"/>
- </g>
-</svg>
+      <svg class="Tramado" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="279.553mm" height="209.867mm"
+        version="1.1"
+        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+        viewBox="0 0 27967 20995" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Capa_x0020_1">
+          <metadata id="CorelCorpID_0Corel-Layer" />
+          <path id="fil0 str0" class="fil0 str0"
+            d="M42 7014l6972 0 0 -6972 -6972 0 0 6972 6972 -6972m0 6972l6968 0 0 -6972 -6968 0 0 6972m6968 0l6971 0 0 -6972 -6971 0 0 6972m6971 0l6972 0 0 -6972 -6972 0 0 6972m-13939 -3486l6968 0m-3 3482c1924,0 3484,-1560 3484,-3483 0,-1925 -1560,-3484 -3484,-3484m13946 13939l-6972 0 0 -6968 6972 0 0 6968 -6972 -6968m0 6968l-6971 0 0 -6968 6971 0 0 6968m-6971 0l-6968 0 0 -6968 6968 0 0 6968m-6968 0l-6972 0 0 -6968 6972 0 0 6968m13939 -3483l-6971 0m-3 -3485c-1924,0 -3483,1560 -3483,3483 0,1925 1560,3484 3483,3484m-13937 1l6972 0 0 6971 -6972 0 0 -6971 6972 6971m0 -6971l6968 0 0 6971 -6968 0 0 -6971m6968 0l6971 0 0 6971 -6971 0 0 -6971m6971 0l6972 0 0 6971 -6972 0 0 -6971zm-6974 6968c1924,0 3484,-1560 3484,-3484 0,-1924 -1560,-3483 -3484,-3483" />
+          <rect id="fil1 str1" class="fil1 str1" x="20953" y="13982" width="6971" height="6971" />
+        </g>
+      </svg>
 
 
     </div>
