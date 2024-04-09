@@ -15,7 +15,6 @@
     rel="stylesheet">
 
 
-<<<<<<< HEAD
  <script>
     document.addEventListener('DOMContentLoaded', function () {
       var str0Element = document.querySelector('.div4 .str0');
@@ -25,31 +24,12 @@
       var serviciosLink = document.querySelector('.div2 .Servicios.internal.links');
       var opaElements = document.querySelectorAll('.div7 .icons .opa');
 
-=======
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Obtén una referencia al elemento con la clase "str0" dentro del div4
-      var str0Element = document.querySelector('.div4 .str0');
-      // Obtén una referencia al elemento con la clase "fil1" dentro del div4
-      var fil1Element = document.querySelector('.div4 .fil1');
-      // Obtén una referencia al enlace con la clase "Nosotres internal links" dentro de div1
-      var nosotresLink = document.querySelector('.div1 .Nosotres.internal.links');
-      // Obtén una referencia al enlace con la clase "Proyectos internal links" dentro de div3
-      var proyectosLink = document.querySelector('.div3 .Proyectos.internal.links');
-      // Obtén una referencia al enlace con la clase "Servicios internal links" dentro de div2
-      var serviciosLink = document.querySelector('.div2 .Servicios.internal.links');
-      // Obtén una referencia al elemento con la clase "icons"
-      var opaElements = document.querySelectorAll('.div7 .icons .opa');
-
-      // Función para cambiar el color al pasar el mouse sobre los iconos
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
       function changeIconColor(color) {
         iconsElement.querySelectorAll('svg').forEach(function (svg) {
           svg.style.fill = color;
         });
       }
 
-<<<<<<< HEAD
       nosotresLink.addEventListener('mouseenter', function () {
         str0Element.style.stroke = '#4B7944';
         fil0Element.style.fill = '#4B7944'; // Cambio realizado aquí
@@ -89,64 +69,6 @@
         opaElement.addEventListener('mouseleave', function () {
           str0Element.style.stroke = 'black';
           fil0Element.style.fill = 'black'; // Cambio realizado aquí
-=======
-      // Agrega un event listener para el evento mouseenter en el enlace de Nosotres
-      nosotresLink.addEventListener('mouseenter', function () {
-        // Cambia el color de los elementos str0 y fil1 para Nosotres
-        str0Element.style.stroke = '#4B7944';
-        fil1Element.style.fill = '#4B7944';
-      });
-
-      // Agrega un event listener para el evento mouseleave en el enlace de Nosotres
-      nosotresLink.addEventListener('mouseleave', function () {
-        // Restaura el color de los elementos str0 y fil1 a su valor original
-        str0Element.style.stroke = 'black';
-        fil1Element.style.fill = 'black';
-      });
-
-      // Agrega un event listener para el evento mouseenter en el enlace de Proyectos
-      proyectosLink.addEventListener('mouseenter', function () {
-        // Cambia el color de los elementos str0 y fil1 para Proyectos
-        str0Element.style.stroke = '#FDC03F';
-        fil1Element.style.fill = '#FDC03F';
-      });
-
-      // Agrega un event listener para el evento mouseleave en el enlace de Proyectos
-      proyectosLink.addEventListener('mouseleave', function () {
-        // Restaura el color de los elementos str0 y fil1 a su valor original
-        str0Element.style.stroke = 'black';
-        fil1Element.style.fill = 'black';
-      });
-
-      // Agrega un event listener para el evento mouseenter en el enlace de Servicios
-      serviciosLink.addEventListener('mouseenter', function () {
-        // Cambia el color de los elementos str0 y fil1 para Servicios
-        str0Element.style.stroke = '#4B6779';
-        fil1Element.style.fill = '#4B6779';
-      });
-
-      // Agrega un event listener para el evento mouseleave en el enlace de Servicios
-      serviciosLink.addEventListener('mouseleave', function () {
-        // Restaura el color de los elementos str0 y fil1 a su valor original
-        str0Element.style.stroke = 'black';
-        fil1Element.style.fill = 'black';
-      });
-
-      // Itera sobre cada elemento .opa y agrega los event listeners
-      opaElements.forEach(function (opaElement) {
-        // Agrega un event listener para el evento mouseenter
-        opaElement.addEventListener('mouseenter', function () {
-          // Cambia el color de los elementos str0 y fil1 para Servicios
-          str0Element.style.stroke = '#EF4939';
-          fil1Element.style.fill = '#EF4939';
-        });
-
-        // Agrega un event listener para el evento mouseleave
-        opaElement.addEventListener('mouseleave', function () {
-          // Restaura el color de los elementos str0 y fil1 a su valor original
-          str0Element.style.stroke = 'black';
-          fil1Element.style.fill = 'black';
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
         });
       });
     });
@@ -160,33 +82,12 @@
 
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
   <title>Aep - ARQUITECTES DE LA ECONOMIA POPULAR </title>
 </head>
 
 <body>
   <div class="parent" id="myAnim">
-<<<<<<< HEAD
 
-    <div class="div1">
-      <a class="Nosotres internal links" target="_self" href="/Nosotres/Nosotres.html">Nosotres</a>
-    </div>
-=======
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
-
-    <div class="div2">
-      <a class="Servicios internal links" class="Servicios" target="_self"
-        href="/Servicios/Servicios.html">Servicios</a>
-    </div>
-
-<<<<<<< HEAD
-    <div class="div3">
-      <a class="Proyectos internal links" target="_self" href="/Proyectos/Proyectos.html">Proyectos</a>
-=======
     <div class="div1">
       <a class="Nosotres internal links" target="_self" href="/Nosotres/Nosotres.html">Nosotres</a>
     </div>
@@ -200,49 +101,6 @@
       <a class="Proyectos internal links" target="_self" href="/Proyectos/Proyectos.html">Proyectos</a>
     </div>
 
-    <div class="div4">
-      <svg class="Tramado" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="279.553mm" height="209.867mm"
-        version="1.1"
-        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-        viewBox="0 0 27967 20995" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g id="Capa_x0020_1">
-          <metadata id="CorelCorpID_0Corel-Layer" />
-          <path id="fil0 str0" class="fil0 str0"
-            d="M42 7014l6972 0 0 -6972 -6972 0 0 6972 6972 -6972m0 6972l6968 0 0 -6972 -6968 0 0 6972m6968 0l6971 0 0 -6972 -6971 0 0 6972m6971 0l6972 0 0 -6972 -6972 0 0 6972m-13939 -3486l6968 0m-3 3482c1924,0 3484,-1560 3484,-3483 0,-1925 -1560,-3484 -3484,-3484m13946 13939l-6972 0 0 -6968 6972 0 0 6968 -6972 -6968m0 6968l-6971 0 0 -6968 6971 0 0 6968m-6971 0l-6968 0 0 -6968 6968 0 0 6968m-6968 0l-6972 0 0 -6968 6972 0 0 6968m13939 -3483l-6971 0m-3 -3485c-1924,0 -3483,1560 -3483,3483 0,1925 1560,3484 3483,3484m-13937 1l6972 0 0 6971 -6972 0 0 -6971 6972 6971m0 -6971l6968 0 0 6971 -6968 0 0 -6971m6968 0l6971 0 0 6971 -6971 0 0 -6971m6971 0l6972 0 0 6971 -6972 0 0 -6971zm-6974 6968c1924,0 3484,-1560 3484,-3484 0,-1924 -1560,-3483 -3484,-3483" />
-          <rect id="fil1 str1" class="fil1 str1" x="20953" y="13982" width="6971" height="6971" />
-        </g>
-      </svg>
-
-
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
-    </div>
-
-    <div class="div5"> </div>
-    <div class="div6"> </div>
-
-
-    <div class="div7">
-
-      <div class="icons">
-
-        <!--Linkedin-->
-        <a href="https://www.linkedin.com/in/arquitectes-de-la-econom%C3%ADa-popular-650790221/" target="_blank"
-          rel="linkedin de la empresa" title="linkedin">
-          <svg class="opa" width="19" height="18" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M1.07617 2.55663C1.07617 2.06947 1.24725 1.66758 1.5894 1.35094C1.93155 1.03429 2.37636 0.875977 2.9238 0.875977C3.46148 0.875977 3.89649 1.03185 4.22888 1.34364C4.57103 1.66515 4.74211 2.08409 4.74211 2.60047C4.74211 3.06813 4.57592 3.45784 4.24354 3.76962C3.90139 4.09114 3.4517 4.2519 2.89448 4.2519H2.87981C2.34214 4.2519 1.90712 4.09114 1.57474 3.76962C1.24236 3.44811 1.07617 3.04377 1.07617 2.55663ZM1.2668 15.3442V5.5818H4.52215V15.3442H1.2668ZM6.32579 15.3442H9.58115V9.89304C9.58115 9.55203 9.62025 9.28897 9.69845 9.10386C9.83531 8.7726 10.0431 8.49249 10.3217 8.26354C10.6003 8.03458 10.9498 7.9201 11.3701 7.9201C12.465 7.9201 13.0125 8.65569 13.0125 10.1269V15.3442H16.2678V9.7469C16.2678 8.30494 15.9257 7.2113 15.2414 6.46597C14.557 5.72064 13.6528 5.34797 12.5286 5.34797C11.2675 5.34797 10.285 5.8887 9.58115 6.97017V6.9994H9.56648L9.58115 6.97017V5.5818H6.32579C6.34534 5.89357 6.35512 6.86299 6.35512 8.49006C6.35512 10.1171 6.34534 12.4018 6.32579 15.3442Z"
-              fill="currentColor"></path>
-          </svg></a>
-
-        <!--Instagram-->
-        <a href="https://www.instagram.com/aep.lp/?hl=es" target="_blank" rel="Instagram de la empresa"
-          title="Instagram de la empresa">
-          <svg class="opa" width="20" height="20" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M1.04004 8.68933C1.04004 5.6551 1.04004 4.13799 1.76307 3.04525C2.08594 2.5573 2.50383 2.1394 2.99179 1.81654C4.08452 1.09351 5.60163 1.09351 8.63586 1.09351C11.6701 1.09351 13.1872 1.09351 14.2799 1.81654C14.7679 2.1394 15.1858 2.5573 15.5086 3.04525C16.2317 4.13799 16.2317 5.6551 16.2317 8.68933C16.2317 11.7236 16.2317 13.2407 15.5086 14.3334C15.1858 14.8214 14.7679 15.2392 14.2799 15.5621C13.1872 16.2851 11.6701 16.2851 8.63586 16.2851C5.60163 16.2851 4.08452 16.2851 2.99179 15.5621C2.50383 15.2392 2.08594 14.8214 1.76307 14.3334C1.04004 13.2407 1.04004 11.7236 1.04004 8.68933ZM12.562 8.68764C12.562 10.8595 10.8014 12.6201 8.62952 12.6201C6.45769 12.6201 4.69707 10.8595 4.69707 8.68764C4.69707 6.51581 6.45769 4.7552 8.62952 4.7552C10.8014 4.7552 12.562 6.51581 12.562 8.68764ZM8.62952 11.2896C10.0666 11.2896 11.2315 10.1247 11.2315 8.68764C11.2315 7.2506 10.0666 6.08565 8.62952 6.08565C7.19248 6.08565 6.02753 7.2506 6.02753 8.68764C6.02753 10.1247 7.19248 11.2896 8.62952 11.2896ZM12.7158 5.48229C13.2262 5.48229 13.6399 5.0686 13.6399 4.55828C13.6399 4.04797 13.2262 3.63428 12.7158 3.63428C12.2055 3.63428 11.7918 4.04797 11.7918 4.55828C11.7918 5.0686 12.2055 5.48229 12.7158 5.48229Z"
-              fill="currentColor"></path>
-          </svg></a>
-      </div>
 
 
     <div class="div4">
@@ -327,15 +185,10 @@
           </svg></a>
       </div>
 
-    </div>
-    <div class="div8"></div>
 
-<<<<<<< HEAD
 
     </div>
     <div class="div8"></div>
-=======
->>>>>>> f254bda557e4790bf9608817b1fff8b06f2269b9
   </div>
 
 </body>
