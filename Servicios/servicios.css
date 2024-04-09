@@ -1,0 +1,439 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Selectric Orator";
+}
+
+
+@font-face {
+    font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "D-DINCondensed";
+    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)
+}
+
+
+
+/* Header y navbar */
+
+
+.header {
+    background-color: rgba(255, 255, 255, 0.92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 10px 5%;
+    margin-top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+/* Header Logo */
+
+
+.Logoentero {
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Linklogo {
+    text-decoration: none;
+    display: flex;
+}
+
+#mediologo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+header div ul {
+    padding: 0%;
+    margin: 15px auto;
+    line-height: 14px;
+}
+
+#arecopo li {
+    font-size: 19px;
+    color: black;
+    letter-spacing: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
+#arecopo li {font-size: 17px;}
+}
+/* Header logo typing efect */
+
+
+.ARQ1 {
+    animation: typing 1.3s steps(20, end);
+    animation-fill-mode: forwards
+}
+
+.ARQ2 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards
+}
+
+.ARQ3 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.Logoentero:hover {
+    transform: scale(1.1);
+    transition: all 0.4s
+}
+
+
+/* Header menu navbar */
+
+
+nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 19px
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+.nav-links a {
+    text-decoration: none;
+    Color: black;
+    padding: 0%;
+    margin: 1vh;
+}
+
+.nav-links li a:hover {
+    color: black;
+}
+
+
+/*GridCuerpo*/
+.GridCuerpo {
+    display: grid;
+    grid-template-columns: 1fr 36px 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 0px;
+    row-gap: 20px;
+    border: 2.5px solid #4B6779;
+    border-radius: 6px;
+    width: 95%;
+    margin: auto;
+    margin-top: 155px;
+    margin-bottom: 8vh;
+    padding: 5%;   
+  }
+  
+
+
+
+
+  .Vertical {
+    display: flex;
+    writing-mode: vertical-rl;
+    font-size: 22px;
+    font-weight: bold;
+    color:#4B6779;
+    animation: myAnim1 0.8s cubic-bezier(0.64, 0, 0.78, 0);
+
+}
+
+  .Vertical.A{
+    transform: scale(-1);
+     }
+
+
+
+
+  .Vertical p {
+    margin: auto;
+    border-left: 2.8px solid #4B6779
+  }
+
+
+    .Texto{font-family: 'Nunito';
+        margin: auto; 
+        font-size: 1.2em;
+    }
+
+    .Descrip{
+        margin: auto;
+        display: flex;}
+
+    .GridCuerpo img{
+        width: 40%; margin: auto;}
+
+    .Imagen{
+        margin: auto;
+        display: flex;
+        
+    }
+
+    .right{animation: myAnim3 0.6s cubic-bezier(0.64, 0, 0.78, 0) 0s 1 normal forwards;}
+.Left{animation: myAnim2 0.6s cubic-bezier(0.64, 0, 0.78, 0) 0s 1 normal forwards;}
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 3; }
+    .div6 { grid-area: 2 / 3 / 3 / 4; }
+    .div7 { grid-area: 3 / 1 / 4 / 2; }
+    .div8 { grid-area: 3 / 2 / 4 / 3; }
+    .div9 { grid-area: 3 / 3 / 4 / 4; } 
+
+
+    @keyframes myAnim1 {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes myAnim2 {
+        0% { opacity: 0;
+            transform: translateX(-50px);
+          }
+        
+          100% {
+              opacity: 1;
+              transform: translateX(0px)
+          }
+      }
+      @keyframes myAnim3 {
+        0% { opacity: 0;
+          transform: translateX(50px);
+        }
+      
+        100% {
+            opacity: 1;
+            transform: translateX(0px)
+        }
+      }
+
+
+
+/* Pie de pagina redes */
+
+.piepagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 10px 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.piepagina .redes {
+    margin: auto;
+    flex:1;
+    padding-bottom: 1vw;
+    text-decoration: none;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.piepagina .redes .icons {margin-left: 0;
+    display: flex;
+}
+
+.piepagina .redes a {
+    color: black;
+    transition: 0.3s;
+    margin: 6px;
+}
+
+.Escalapie{max-width:  130px; display: flex;margin-right: o;}
+.Escalapie.svg{height: 100%;}
+.piepagina .redes a:hover {
+    color: #4B6779;
+    transform: scale(1.2);
+}
+
+.str1 {stroke:#000000;stroke-width:27.1625}
+.str0 {stroke:#000000;stroke-width:26.0744;stroke-linecap:round;stroke-linejoin:round}
+.fil0 {fill:none;fill-rule:nonzero}
+.fil1 {fill:#000000;fill-rule:nonzero}
+
+
+
+
+
+/* media query */
+
+
+@media (max-width: 952px) {
+
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav-links {
+        margin-top: 1%;
+        margin-inline-start: 26px;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 111px;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+
+
+    .GridCuerpo{
+        row-gap: 32px;
+    margin-top: 113px;}
+
+    .Texto{
+        margin: auto; 
+        font-size: 0.9em;
+        
+    }
+    
+  .Vertical {
+    font-size: 1.2em;
+    letter-spacing:2px;
+}
+.GridCuerpo img{
+    width: 76%;
+}
+
+}
+
+@media (max-width: 479px) {
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav {
+        margin: 0%;
+    }
+
+    .nav-links {
+        margin-top: 2%;
+        padding: 0%;
+        margin-inline-start: 0;
+        margin-left: 0%;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 109px;
+        align-items: flex-start;
+    }
+
+
+    .nav-links a {
+        margin-left: 0%;
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+    .Texto{
+        margin: auto; 
+        font-size: 0.70em;
+    }
+    .Vertical {
+        font-size: 1em;
+    }
+    .GridCuerpo img{
+        font-size: 15px;
+        width: 85%;}
+
+
+}
