@@ -187,14 +187,15 @@ nav {
 .div1 {
     grid-area: 1 / 1 / 2 / 3;
     display: flex;
-    margin-top: 1.5vw;
-    margin-bottom: 1vw;
+    
 }
 
 .div1 h1 {
     justify-content: center;
     margin: auto;
     display: flex;
+    margin-top: 1.7vw;
+    margin-bottom: 1vw;
 
 
 }
