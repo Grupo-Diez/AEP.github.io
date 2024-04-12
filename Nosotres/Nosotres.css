@@ -173,7 +173,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    border: 2.5px solid #4B6779;
+    border: 2.5px solid #4B7944;
     border-radius: 6px;
     width: 95%;
     margin: auto;
@@ -268,8 +268,8 @@ nav {
 }
 
 .Nota {
-    border-left: 2px solid #4B6779;
-    border-right: 2px solid #4B6779;
+    border-left: 2px solid #4B7944;
+    border-right: 2px solid #4B7944;
     padding: 1vw;
     margin: auto;
     color: #000000;
@@ -345,7 +345,7 @@ nav {
 }
 
 .piepagina .redes a:hover {
-    color: #FDC03F;
+    color: #4B7944;
     transform: scale(1.2);
 }
 
@@ -521,6 +521,9 @@ nav {
     .GridCuerpo {
         margin-top: 111px;
     }
+
+}
+
 
 }
 
