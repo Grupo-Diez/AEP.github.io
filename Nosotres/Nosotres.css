@@ -438,7 +438,7 @@ nav {
         width: 25%; margin: auto;
     }
     .Nota{font-size: 0.8em;}
-
+    .nota.R{text-align: right;}
    
     .div4 {
         grid-area: 4 / 1 / 5 / 3;
