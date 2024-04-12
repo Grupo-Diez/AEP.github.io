@@ -173,7 +173,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    border: 2.5px solid #4B7944;
+    border: 2.5px solid #4B6779;
     border-radius: 6px;
     width: 95%;
     margin: auto;
@@ -187,7 +187,6 @@ nav {
 .div1 {
     grid-area: 1 / 1 / 2 / 3;
     display: flex;
-    
 }
 
 .div1 h1 {
@@ -195,7 +194,7 @@ nav {
     margin: auto;
     display: flex;
     margin-top: 2vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     
 
    
@@ -255,8 +254,8 @@ nav {
     justify-content: space-evenly;
     flex-direction: row;
     flex: 1;
-    padding: 1vw;
     align-content:center;
+    padding: 0%;
 }
 
 .linkProyectos {
@@ -265,19 +264,18 @@ nav {
 }
 
 .ImgProyectos {
-    width: 30%; margin: auto;align-content:center;
+    width: 30%; margin-bottom: 0px;
 }
 
 .Nota {
-    border-left: 2px solid #4B7944;
-    border-right: 2px solid #4B7944;
+    border-left: 2px solid #4B6779;
+    border-right: 2px solid #4B6779;
     padding: 1vw;
     margin: auto;
     color: #000000;
     font-family: 'nunito';
     font-size: 12px;
-    margin-top: 8%;
-     width: 100%
+    width: 70%
 }
 
 .Nota.I:hover{transform:translate(8px);}
@@ -525,4 +523,5 @@ nav {
     }
 
 }
+
 
