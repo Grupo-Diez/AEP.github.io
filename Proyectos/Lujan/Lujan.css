@@ -201,7 +201,7 @@ iframe {width: 100%;
 }
 
 
-.BotonesNav {
+.BotonesNav{
 display: flex; 
 margin: auto;
 font-family: "nunito";
@@ -242,6 +242,8 @@ font-weight:bolder;
 }
 #siguiente:hover {padding-left: 5%;box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.160)}
 #volver:hover {padding-right: 5%;box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.160)}
+
+
 
 
 
