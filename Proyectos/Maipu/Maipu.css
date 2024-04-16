@@ -168,6 +168,7 @@ nav {
     margin-bottom: 8vh;
     padding-top: 0%;
     font-size: 14px;
+    padding-bottom: 11vh;
 
 
 }
@@ -186,6 +187,54 @@ iframe {
     grid-column-start: 1;
     grid-column-end: -1;
 }
+
+.BotonesNav{
+display: flex; 
+margin: auto;
+font-family: "nunito";
+position: fixed;
+bottom: 13vh;
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;
+transition: opacity 0.3s ease;
+font-weight:bolder;
+}
+
+.BotonesNav.visible {
+    opacity: 1;
+    white-space: 20px;
+    justify-content: center;
+}
+
+
+    
+#volver, #siguiente {
+    color:rgba(253, 193, 63, 0.568);
+    text-align: center;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(252, 252, 252, 0.726);
+    line-height: 40px; /* Ajusta la altura del botón */
+    vertical-align: middle; /* Alinea verticalmente el contenido */
+    padding: 1px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.041);
+}
+
+#siguiente {
+    margin-left: 45px; /* Espacio entre botones */
+}
+
+
+
+
+    #proyectos {
+        font-size: 16px;
+    }
+
 
 
 
