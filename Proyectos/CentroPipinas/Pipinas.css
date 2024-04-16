@@ -218,7 +218,7 @@ display: flex;
 margin: auto;
 font-family: "nunito";
 position: fixed;
-bottom: 13vh;
+bottom: 18vh;
 left: 50%;
 transform: translateX(-50%);
 opacity: 0;
