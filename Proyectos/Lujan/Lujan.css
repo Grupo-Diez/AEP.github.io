@@ -200,7 +200,8 @@ iframe {width: 100%;
     border-radius: 10px;
 }
 
-.BotonesNav{
+
+.BotonesNav {
 display: flex; 
 margin: auto;
 font-family: "nunito";
