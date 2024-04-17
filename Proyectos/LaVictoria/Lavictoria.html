@@ -18,18 +18,31 @@
 <meta name="keywords" content="cooperativa, economía popular, justicia urbana, proyectos participativos, consultorías transdisciplinares, hábitat justo, comunidad, arquitectos, arquitectas, arquitectura, coperativa de arquitectura, obra publica, obras barriales, obras municipales, urbanismo, estudio arquitectas,">
   <link rel="canonical" href="https://arqep.com.ar/">
   
-    <script>
-    window.addEventListener('scroll', function() {
-    var scrollPosition = window.scrollY;
-    var viewportHeight = window.innerHeight;
-    var threshold = viewportHeight * 0.2; // El 25% de la altura de la ventana
 
-    if (scrollPosition > threshold) {
-        document.querySelector('.BotonesNav').classList.add('visible');
-    } else {
-        document.querySelector('.BotonesNav').classList.remove('visible');
-    }
-});</script>
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.scrollY;
+        var viewportHeight = window.innerHeight;
+        var threshold = viewportHeight * 0.2; // El 20% de la altura de la ventana
+
+        // Obtener la altura total del contenido
+        var contentHeight = document.body.clientHeight;
+
+        // Verificar si la altura total del contenido es más grande que la altura de la ventana
+        var scrollNeeded = contentHeight > viewportHeight;
+
+        // Verificar si se necesita desplazamiento y si el usuario ha desplazado lo suficiente
+        if (scrollNeeded && scrollPosition > threshold) {
+            document.querySelector('.BotonesNav').classList.add('visible');
+        } else {
+            document.querySelector('.BotonesNav').classList.remove('visible');
+        }
+    });
+</script>
+
+
+
+    
     
   <title>Aep | Cooperativa Arquitectes de la economia popular </title>
 </head>
