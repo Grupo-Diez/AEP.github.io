@@ -17,6 +17,19 @@
 <meta name="description" content="AEP es una cooperativa técnico-militante comprometida con la economía popular y la justicia urbana. A través de proyectos participativos y consultorías transdisciplinares, trabajamos para construir un hábitat justo y colaborativo, cuestionando las normas profesionales y priorizando la comunidad.">
 <meta name="keywords" content="cooperativa, economía popular, justicia urbana, proyectos participativos, consultorías transdisciplinares, hábitat justo, comunidad, arquitectos, arquitectas, arquitectura, coperativa de arquitectura, obra publica, obras barriales, obras municipales, urbanismo, estudio arquitectas,">
   <link rel="canonical" href="https://arqep.com.ar/">
+  <script>
+    window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var viewportHeight = window.innerHeight;
+    var threshold = viewportHeight * 0.25; // El 25% de la altura de la ventana
+
+    if (scrollPosition > threshold) {
+        document.querySelector('.BotonesNav').classList.add('visible');
+    } else {
+        document.querySelector('.BotonesNav').classList.remove('visible');
+    }
+});</script>
+    
   <title>Aep | Cooperativa Arquitectes de la economia popular </title>
 </head>
 
@@ -96,10 +109,10 @@
 
 
 
-
-
-
-
+  <div class="BotonesNav">
+    <a href="https://arqep.com.ar/Proyectos/Proyectos.html" id="volver"><</a>
+    <a href="https://arqep.com.ar/Proyectos/Maipu/Maipu.html" id="siguiente">></a>
+  </div>
 
 
     </div>
