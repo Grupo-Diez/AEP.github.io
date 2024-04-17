@@ -159,7 +159,7 @@ nav {
     grid-auto-rows: minmax(20px, auto);
     gap: 40px;
     margin-bottom: 6vh;
-    border: 3px solid #FDC03F;
+    border: 2px solid #FDC03F;
     border-radius: 8px;
     width: 95%;
     margin: auto;
