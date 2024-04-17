@@ -167,6 +167,7 @@ nav {
     margin-bottom: 8vh;
     padding-top: 0%;
     font-size: 14px;
+    padding-bottom:12vh;
 }
 
 .Item {
@@ -216,7 +217,7 @@ display: flex;
 margin: auto;
 font-family: "nunito";
 position: fixed;
-bottom: 13vh;
+bottom: 16vh;
 left: 50%;
 transform: translateX(-50%);
 opacity: 0;
