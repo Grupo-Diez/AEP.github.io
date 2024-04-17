@@ -220,7 +220,7 @@ position: fixed;
 bottom: 13vh;
 left: 50%;
 transform: translateX(-50%);
-opacity: 0;
+opacity: 1;
 transition: opacity 0.3s ease;
 font-weight:bolder;
 }
@@ -316,7 +316,7 @@ font-weight:bolder;
 
 @media (max-width: 952px) {
 
-
+   
     .Logoentero:hover {
         transform: none;
     }
@@ -383,6 +383,10 @@ font-weight:bolder;
         grid-column-start: 1;
         grid-column-end: -1;
     }
+
+    .BotonesNav{opacity: 0}
+    .BotonesNav.visible {
+    opacity: 1;}
 
 
 }
