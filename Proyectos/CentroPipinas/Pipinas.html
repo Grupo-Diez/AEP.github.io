@@ -21,7 +21,7 @@
     window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var viewportHeight = window.innerHeight;
-    var threshold = viewportHeight * 0; // El 25% de la altura de la ventana
+    var threshold = viewportHeight * 0.01; // El 25% de la altura de la ventana
 
     if (scrollPosition > threshold) {
         document.querySelector('.BotonesNav').classList.add('visible');
