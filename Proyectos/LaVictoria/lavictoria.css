@@ -167,7 +167,7 @@ nav {
     margin-bottom: 8vh;
     padding-top: 0%;
     font-size: 14px;
-    padding-bottom:12vh;
+    padding-bottom:80px;
 }
 
 .Item {
@@ -217,7 +217,6 @@ display: flex;
 margin: auto;
 font-family: "nunito";
 position: fixed;
-bottom: 13vh;
 left: 50%;
 transform: translateX(-50%);
 opacity: 0;
@@ -229,6 +228,8 @@ font-weight:bolder;
     opacity: 1;
     white-space: 20px;
     justify-content: center;
+    bottom: 90px;
+
 }
 
 
@@ -266,7 +267,7 @@ font-weight:bolder;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 6vh;
+    height: 8vh;
     padding: 10px 5%;
     position: absolute;
     bottom: 0;
