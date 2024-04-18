@@ -160,7 +160,7 @@ nav {
     padding-top: 0%;
     font-size: 14px;
     grid-auto-flow: dense;
-    padding-bottom: 11vh;
+    padding-bottom: 90px;
 
 }
 
@@ -206,7 +206,7 @@ display: flex;
 margin: auto;
 font-family: "nunito";
 position: fixed;
-bottom: 13vh;
+bottom: 95px;
 left: 50%;
 transform: translateX(-50%);
 opacity: 0;
@@ -252,12 +252,13 @@ font-weight:bolder;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 6vh;
+    height: 8vh;
     padding: 10px 5%;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 
 .piepagina .redes {
     margin: auto;
@@ -423,3 +424,4 @@ font-weight:bolder;
     }
 
 }
+
