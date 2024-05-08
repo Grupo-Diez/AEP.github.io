@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Selectric Orator";
+}
+
+
+@font-face {
+    font-family: "Selectric Orator";
+    src: local("Selectric Orator"), url(Selectric\ Orator.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "D-DINCondensed";
+    src: local("D-DINCondensed"), url(D-DINCondensed.ttf)
+}
+
+
+
+/* Header y navbar */
+
+
+.header {
+    background-color: rgba(255, 255, 255, 0.92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 10px 5%;
+    margin-top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+/* Header Logo */
+
+
+.Logoentero {
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Linklogo {
+    text-decoration: none;
+    display: flex;
+}
+
+#mediologo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+header div ul {
+    padding: 0%;
+    margin: 15px auto;
+    line-height: 14px;
+}
+
+#arecopo li {
+    font-size: 19px;
+    color: black;
+    letter-spacing: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+@-moz-document url-prefix() { header div ul {margin: 9.5px auto;}
+#arecopo li {font-size: 17px;}
+}
+/* Header logo typing efect */
+
+
+.ARQ1 {
+    animation: typing 1.3s steps(20, end);
+    animation-fill-mode: forwards
+}
+
+.ARQ2 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards
+}
+
+.ARQ3 {
+    animation: typing 1.3s steps(20, end);
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.Logoentero:hover {
+    transform: scale(1.1);
+    transition: all 0.4s
+}
+
+
+/* Header menu navbar */
+
+
+nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 19px
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s
+}
+
+.nav-links a {
+    text-decoration: none;
+    Color: black;
+    padding: 0%;
+    margin: 1vh;
+}
+
+
+
+
+/*GridCuerpo*/
+.GridCuerpo {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-auto-flow: dense;
+    gap: 20px;
+    margin-bottom: 6vh;
+    border: 2px solid #FDC03F;
+    border-radius: 8px;
+    width: 95%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 155px;
+    margin-bottom: 8vh;
+    font-size: 14px;
+    padding-top: 0%;
+    padding-bottom: 70px;
+
+
+}
+
+.Item.uno{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.Item {
+    display:flex;       
+    border-radius: 10px;
+}
+
+iframe {width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.ancho {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+.descrip {
+    margin-top: 0%;
+    font-family: 'Nunito';
+}
+
+.GridCuerpo img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+
+
+.BotonesNav{
+display: flex; 
+margin: auto;
+font-family: "nunito";
+position: fixed;
+bottom: 90px;
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;
+transition: opacity 0.3s ease;
+font-weight:bolder;
+}
+
+.BotonesNav.visible {
+    opacity: 1;
+    white-space: 20px;
+    justify-content: center;
+}
+
+
+    
+#volver, #siguiente {
+    color:rgba(253, 193, 63, 0.568);
+    text-align: center;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(252, 252, 252, 0.726);
+    line-height: 40px; /* Ajusta la altura del botón */
+    vertical-align: middle; /* Alinea verticalmente el contenido */
+    padding: 1px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.041);
+}
+
+#siguiente {
+    margin-left: 45px; /* Espacio entre botones */
+}
+#siguiente:hover {padding-left: 5%;box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.160)}
+#volver:hover {padding-right: 5%;box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.160)}
+
+
+
+
+
+
+
+/* Pie de pagina redes */
+
+.piepagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 10px 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.piepagina .redes {
+    margin: auto;
+    flex:1;
+    padding-bottom: 1vw;
+    text-decoration: none;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.piepagina .redes .icons {margin-left: 0;
+    display: flex;
+}
+
+.piepagina .redes a {
+    color: black;
+    transition: 0.3s;
+    margin: 6px;
+}
+
+.Escalapie{max-width:  130px; display: flex;margin-right: o;}
+.Escalapie.svg{height: 100%;}
+.piepagina .redes a:hover {
+    color: #FDC03F;
+    transform: scale(1.2);
+}
+
+.str1 {stroke:#000000;stroke-width:27.1625}
+.str0 {stroke:#000000;stroke-width:26.0744;stroke-linecap:round;stroke-linejoin:round}
+.fil0 {fill:none;fill-rule:nonzero}
+.fil1 {fill:#000000;fill-rule:nonzero}
+
+
+
+/* media query */
+
+
+@media (max-width: 952px) {
+
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav-links {
+        margin-top: 1%;
+        margin-inline-start: 26px;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 111px;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0%;
+    }
+
+    .nav-links a {
+        margin: 13px
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .ARQ2,
+    .ARQ3 {
+        margin-top: 0%;
+    }
+
+    .GridCuerpo {grid-template-columns:auto auto ;
+        margin-top: 113px;
+        gap: 5px;
+    }
+.descrip {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .ancho {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+
+}
+
+@media (max-width: 479px) {
+
+    .Logoentero:hover {
+        transform: none;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+    }
+
+    .nav {
+        margin: 0%;
+    }
+
+    .nav-links {
+        margin-top: 2%;
+        padding: 0%;
+        margin-inline-start: 0;
+        margin-left: 0%;
+        font-size: 17px;
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        height: 109px;
+        align-items: flex-start;
+    }
+
+
+    .nav-links a {
+        margin-left: 0%;
+    }
+
+    #mediologo {
+        height: 45px;
+        width: auto;
+    }
+
+    #arecopo {
+        margin-top: 3%;
+        line-height: 13px
+    }
+
+    #arecopo li {
+        font-size: 15px;
+    }
+
+    .GridCuerpo {
+        margin-top: 111px;
+    }
+    .Item {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+}
