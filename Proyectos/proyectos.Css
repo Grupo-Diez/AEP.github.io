@@ -194,14 +194,13 @@ nav {
 
 .DivContador {
     display: flex;
-    align-items: center;
     margin-bottom: 1vw;
     justify-content: space-between;
 }
 .CaratulaContador {
     flex: 1;
     padding: auto;
-    margin: 1vw;
+    margin: 1.3vw;
     font-size: 17px;
     text-align:center;
     display: flex;
