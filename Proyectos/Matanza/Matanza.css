@@ -350,7 +350,7 @@ font-weight:bolder;
         margin-top: 0%;
     }
 
-    .GridCuerpo {grid-template-columns:auto auto ;
+    .GridCuerpo {grid-template-columns:1fr 1fr ;
         margin-top: 113px;
         gap: 5px;
     }
