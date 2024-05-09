@@ -148,6 +148,7 @@ nav {
 .GridCuerpo {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows: min-content;
     grid-auto-flow: dense;
     gap: 20px;
     margin-bottom: 6vh;
