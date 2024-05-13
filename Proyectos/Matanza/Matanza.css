@@ -340,7 +340,7 @@ font-weight:bolder;
     .GridCuerpo {    
         column-gap: 10px;
         margin-top: 113px;
-        gap: 5px;
+        column-gap: 15px;
     }
 
     .GridCuerpo img {
@@ -407,3 +407,4 @@ font-weight:bolder;
 
 
 }
+
