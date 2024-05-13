@@ -179,7 +179,7 @@
     }
 
 
-    .Item .descrip {margin: 0%;}
+    .Item .descrip {margin: 0%;margin-bottom: 3%}
 
     .descrip {
         font-family: 'Nunito';
