@@ -156,26 +156,33 @@ nav {
     margin-bottom: 8vh;
     font-size: 14px;
     padding-bottom: 70px;
-    padding: 5%;
+    padding: 1% 5% ;
 
 
 }
 
 .Item.uno{
-column-span: all;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 3%;
+    column-span: all;
+}
+.Item.uno h1{
+display: flex;
+margin: 0%;
+
 }
 
 iframe {
     width: 100%;
+    margin:5%;
     border-radius: 10px;
 }
 
 
-
+.Item .descrip {margin: 0%;}
 
 .descrip {
-    margin:5%;
-    margin-left: 0;
     font-family: 'Nunito';
 }
 
@@ -407,4 +414,3 @@ font-weight:bolder;
 
 
 }
-
