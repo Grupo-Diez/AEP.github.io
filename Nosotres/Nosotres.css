@@ -246,6 +246,9 @@ nav {
     grid-area: 6 / 1 / 7 / 2;
 }
 
+.div9 {
+    grid-area: 6 / 2 / 7 / 3;
+}
 
 
 .Divs.nota {
@@ -459,6 +462,7 @@ nav {
     .div8 {
         grid-area: 8 / 1 / 9 / 3;
     }
+    .div9{grid-area: 9 / 1 / 10 / 3}
 
     .div1 h1 {
         margin-top: 6vw;
@@ -525,6 +529,8 @@ nav {
 }
 
 
-}
+
+
+
 
 
