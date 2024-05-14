@@ -182,6 +182,7 @@ nav {
     padding: 5%;
     padding-top: 0%;
     gap: 10px;
+
 }
 
 .div1 {
@@ -252,13 +253,13 @@ nav {
 
 
 .Divs.nota {
-    word-wrap:normal;
-    display: flex;
+    margin: auto;
     justify-content: space-evenly;
+    display: flex;
     flex-direction: row;
     flex: 1;
-    align-content:center;
     padding: 0%;
+    max-width: 525px;
 }
 
 .linkProyectos {
@@ -289,7 +290,9 @@ nav {
     transition: 1s all;
 }
 
-.nota.R{ opacity: 0;
+.nota.R{ 
+    justify-content: right;
+    opacity: 0;
     transform: translateX(50px);
     transition: 1s all;}
 .nota.mostrar {
@@ -527,6 +530,10 @@ nav {
     }
 
 }
+
+
+
+
 
 
 
