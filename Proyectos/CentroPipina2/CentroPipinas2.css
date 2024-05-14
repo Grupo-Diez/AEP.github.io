@@ -344,6 +344,7 @@
         }
 
         .GridCuerpo {    
+            padding-bottom: 7vh;
             margin-top: 113px;
             column-gap: 15px;
         }
