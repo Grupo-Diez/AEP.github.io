@@ -156,8 +156,7 @@
         margin-bottom: 8vh;
         font-size: 14px;
         padding-bottom: 70px;
-        padding: 1% 5% ;
-
+        padding: 1% 5% 60px;
 
     }
 
@@ -344,7 +343,6 @@
         }
 
         .GridCuerpo {    
-            padding-bottom: 7vh;    
             margin-top: 113px;
             column-gap: 15px;
         }
