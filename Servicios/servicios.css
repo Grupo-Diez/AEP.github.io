@@ -149,7 +149,7 @@ nav {
 /*GridCuerpo*/
 .GridCuerpo {
     display: grid;
-    grid-template-columns: 1fr 36px 1fr;
+    grid-template-columns: 1fr 60px 1fr;
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 0px;
     row-gap: 20px;
@@ -189,9 +189,11 @@ nav {
   }
 
 
-    .Texto{font-family: 'Nunito';
+    .Texto{
+        font-family: 'Nunito';
         margin: auto; 
         font-size: 1.2em;
+        text-align: justify
     }
 
     .Descrip{
@@ -426,7 +428,7 @@ nav {
     }
     .Texto{
         margin: auto; 
-        font-size: 0.70em;
+        font-size: 10px;
     }
     .Vertical {
         font-size: 1em;
