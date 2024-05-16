@@ -184,7 +184,11 @@ a {
 }
 
 .icons svg {
+  width: 25px;
+  height: 25px;
   color: black;
+  display: flex;
+
 }
 
 .icons a:hover {
